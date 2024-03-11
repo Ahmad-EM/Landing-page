@@ -1,0 +1,386 @@
+<!DOCTYPE html><html lang="en" class="cmmz3">
+<!-- Mirrored from preview.cruip.com/stellar/integrations-single.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 08 Mar 2024 13:00:04 GMT -->
+<head>
+    <meta charset="utf-8">
+    <title>Stellar HTML Demo - Integrations Post</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="css/vendors/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/vendors/swiper-bundle.min.css">
+    <link href="style.css" rel="stylesheet">
+<script defer data-domain='preview.cruip.com,rollup.cruip.com' src='../../plausible.cruip.com/js/script.js'></script></head>
+
+<body class="c4f4x cnihn cs2bp c55gg czrq6">
+
+    <!-- Page wrapper -->
+    <div class="crm2f cbvce cxgh5 cfebz c4agq">
+
+        <!-- Site header -->
+        <header class="ca5ue ca0gw cverl">
+            <div class="co3q6 csm51 csya4 ccyhi">
+                <div class="cm7bi c2sao c4jjw c4agq cm0fl">
+
+                    <!-- Site branding -->
+                    <div class="ci0vw">
+                        <!-- Logo -->
+                        <a class="cwban" href="index-2.html" aria-label="Cruip">
+                            <img class="cbdyn" src="images/logo.svg" width="38" height="38" alt="Stellar">
+                        </a>
+                    </div>
+
+                    <!-- Desktop navigation -->
+                    <nav class="cp37h cjnbw ch9bk">
+
+                        <!-- Desktop menu links -->
+                        <ul class="csqqr c2sao cbsu6 c4agq c9wgl">
+                            <li>
+                                <a class="c0z2s cit3o cx3jz ccqx1 cgi3a cqxsj ch2qt cvdvu ciz32" href="about.html">About</a>
+                            </li>
+                            <li>
+                                <a class="c0z2s cit3o cx3jz ccqx1 cgi3a cqxsj ch2qt cvdvu ciz32" href="integrations.html">Integrations</a>
+                            </li>
+                            <li>
+                                <a class="c0z2s cit3o cx3jz ccqx1 cgi3a cqxsj ch2qt cvdvu ciz32" href="pricing.html">Pricing</a>
+                            </li>
+                            <li>
+                                <a class="c0z2s cit3o cx3jz ccqx1 cgi3a cqxsj ch2qt cvdvu ciz32" href="customers.html">Customers</a>
+                            </li>
+                            <li>
+                                <a class="c0z2s cit3o cx3jz ccqx1 cgi3a cqxsj ch2qt cvdvu ciz32" href="changelog.html">Changelog</a>
+                            </li>
+                        </ul>
+
+                    </nav>
+
+                    <!-- Desktop sign in links -->
+                    <ul class="c2sao cq21c ci0vw c4agq">
+                        <li>
+                            <a class="cz30y c0z2s cit3o cx3jz ccqx1 cgi3a cqxsj cvdvu" href="signin.html">Sign in</a>
+                        </li>
+                        <li class="cci1o">
+                            <a class="c3d7q c272e cegg3 c8isz c0z2s c1mpe ccqfq cit3o cx3jz cgi3a cqxsj c27r3 cfl4k ca0gw cq2yg" href="signup.html">
+                                <span class="c2sao cwban c27r3">
+                                    Sign up <span class="c9pof c406y cxxyq c3fbv cx3jz cgi3a cqzh1">-&gt;</span>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <!-- Mobile menu -->
+                    <div class="c2sao c89zz cwap3 c4agq" x-data="{ expanded: false }">
+                    
+                        <!-- Hamburger button -->
+                        <button class="c381v" :class="{ 'active': expanded }" @click.stop="expanded = !expanded" aria-controls="mobile-nav" :aria-expanded="expanded">
+                            <span class="cmmna">Menu</span>
+                            <svg class="c0z2s cit3o cm1cr cx3jz cgi3a cqxsj csq2q c7vsq" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <rect y="2" width="20" height="2" rx="1"></rect>
+                                <rect y="9" width="20" height="2" rx="1"></rect>
+                                <rect y="16" width="20" height="2" rx="1"></rect>
+                            </svg>
+                        </button>
+                    
+                        <!-- Mobile navigation -->
+                        <nav id="mobile-nav" class="cbvce cml7t cpjek cgi3a ca5ue chez1 csm51 c1tcw ca0gw ccxsu ccyhi" x-ref="mobileNav" :style="expanded ? 'max-height: ' + $refs.mobileNav.scrollHeight + 'px; opacity: 1' : 'max-height: 0; opacity: .8'" @click.outside="expanded = false" @keydown.escape.window="expanded = false" x-cloak="">
+                            <ul class="c3d7q cy8oh c8nst coow7 cn544 ccyhi">
+                                <li>
+                                    <a class="c0z2s cit3o ccqx1 coow7 cvdvu c4agq" href="about.html">About</a>
+                                </li>
+                                <li>
+                                    <a class="c0z2s cit3o ccqx1 coow7 cvdvu c4agq" href="integrations.html">Integrations</a>
+                                </li>
+                                <li>
+                                    <a class="c0z2s cit3o ccqx1 coow7 cvdvu c4agq" href="pricing.html">Pricing</a>
+                                </li>
+                                <li>
+                                    <a class="c0z2s cit3o ccqx1 coow7 cvdvu c4agq" href="customers.html">Customers</a>
+                                </li>
+                                <li>
+                                    <a class="c0z2s cit3o ccqx1 coow7 cvdvu c4agq" href="changelog.html">Changelog</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    
+                    </div>
+
+                </div>
+            </div>
+        </header>
+
+        <!-- Page content -->
+        <main class="c9wgl">
+
+            <section class="c27r3">
+                
+                <!-- Radial gradient -->
+                <div class="c3sb3 c2vxt czyer csqqr c21zy c2sao czqre c3x17 ca5ue cl6qg ch67j c4agq" aria-hidden="true">
+                    <div class="c9ua1 chor7 cw2sl cdfzt cz8e7 ca5ue cwmqr"></div>
+                    <div class="chor7 cpgjj cal1k cdfzt cutr4 ca5ue cbc5q cb4st"></div>
+                </div>
+                
+                <!-- Particles animation -->
+                <div class="ca5ue cwmqr ch67j ci4x8" aria-hidden="true">
+                    <canvas data-particle-animation="" data-particle-quantity="15"></canvas>
+                </div>
+                
+                <!-- Illustration -->
+                <div class="c3sb3 c2vxt c5by6 c3x17 cs26b ca5ue c7upq cnheb ch67j" aria-hidden="true">
+                    <img src="images/page-illustration.svg" class="cbdyn" width="1440" height="427" alt="Page Illustration">
+                </div>
+
+                <div class="co3q6 csm51 csya4 ccyhi">
+                    <div class="cz17m cp02i">
+            
+                        <div class="c0pfd cp37h">
+            
+                            <!-- Page content -->
+                            <div class="c9eon cjnbw cifrc">
+                                <div class="c2z6w">
+            
+                                    <div class="c4dcx cntak cts8d cwmzh cfebz c4agq">
+            
+                                        <!-- Back button -->
+                                        <div class="cl3jq">
+                                            <div class="c4jlg c3zux">
+                                                <a class="c3d7q c272e cegg3 c8isz cy8oh c1mpe ccqfq csqqr c2sao cdfzt c27r3 cn544 cq2yg c4agq cdfq1 cnacl" href="integrations.html">
+                                                    <span class="cmmna">Go back</span>
+                                                    <svg class="ce2m3 cbhpb cpy4b" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M6.7 14.7l1.4-1.4L3.8 9H16V7H3.8l4.3-4.3-1.4-1.4L0 8z"></path>
+                                                    </svg>
+                                                </a>
+                                            </div>
+                                        </div>
+            
+                                        <!-- Content -->
+                                        <div>
+                                            <article class="ctnn6 ckbs2 cmrr9 cifrc">
+    
+                                                <figure class="cytnh crohq c260e cn544 cpvtt ctiau">
+                                                    <img class="cck9i ca0gw" src="images/integration-image.png" width="586" height="316" alt="Integration image">
+                                                </figure>
+            
+                                                <h1 class="cmmna">GitHub</h1>
+            
+                                                <!-- Post content -->
+                                                <div class="ciowr cwrle carms cps3d cu7kd cgag9 cm1rn clr09 c88wf cp1uq c3u6r cs8p6 cpq95 cf430 c2gsm cmuyi cvutj c33tn cbdyn cvvsu">
+                                                    <h2>Overview</h2>
+                                                    <p>
+                                                        This powerful GitHub integration keeps your work in sync in both applications. It links features to Pull Requests so that details update automatically from In Progress to Done as the PR moves from drafted to merged - there is no need to update the issue in Stellar at all.
+                                                    </p>
+                                                    <p>
+                                                        Move even faster by using a keyboard shortcut that creates the issue's git branch name, assigns the issue and moves the issue to In Progress in one step. This integration supports <a href="#0">GitHub Enterprise</a>.
+                                                    </p>
+                                                    <h2>How it works</h2>
+                                                    <p>
+                                                        Configure the GitHub integration <strong class="c8azi ccqx1">in a couple of minutes</strong> by authenticating and selecting which repos to connect to Stellar. Once you do, anyone in the workspace can start linking PRs.
+                                                    </p>
+                                                    <p>
+                                                        Link PRs to issues in a few ways. Use the issue ID in the branch name or PR title before creating the PR. To link multiple PRs, or link issues after creating the PR, use magic words along with the issue ID in the PR description.
+                                                    </p>
+                                                </div>
+                                            </article>
+
+                                            <aside class="cfjgk ckuf5 cfq38">
+                                                <p class="cc7gh ccqrz cx8zw c6df8 cfcmr ctwez cwban ccqx1 cbgr1 c18x8 cvc1j">“ This integration is so perfect it tickles my brain. It ensures that your work is in sync across your entire team. ”</p>
+                                                <footer class="c2sao czw8c c4agq">
+                                                    <img class="cdfzt cl3jq" src="images/post-avatar.jpg" width="32" height="32" alt="Author">
+                                                    <div class="cit3o ccqx1 cvdvu">
+                                                        Mike Hunt <span class="ca6l0">-</span> <a class="c6tmf c3fbv" href="#0">Thunderbolt</a>
+                                                    </div>
+                                                </footer>
+                                            </aside>
+                                        </div>
+                        
+                                    </div>
+            
+                                </div>
+                            </div>
+            
+                            <!-- Sidebar -->
+                            <aside class="cp3sc ccnol c9eon c4hvs c1nar c4h05 cifrc">
+                                <div class="cdnya c20az c4jlg c3zux">
+            
+                                    <!-- Sidebar content -->
+                                    <div class="cwmzh">
+            
+                                        <!-- Widget -->
+                                        <div class="czt1h czyxl ccm5l cu167 c260e cn544">
+                                            <div class="cp8ks c1a1y">
+                                                <div class="cw9su crdb2">
+                                                    <div class="cuash">
+                                                        <div class="cwban c27r3">
+                                                            <img src="images/integrations-08.svg" width="80" height="80" alt="Icon 08">
+                                                            <img class="ca5ue coopx cl6qg" src="images/star.svg" width="24" height="24" alt="Star" aria-hidden="true">
+                                                        </div>
+                                                    </div>
+                                                    <button class="c3d7q c272e c5px9 c8isz c0z2s c1mpe ccqfq cit3o cx3jz cgi3a cqxsj c27r3 cfl4k cq2yg">
+                                                        <span class="c2sao cwban c27r3">
+                                                            Install Integration <span class="c9pof c406y cxxyq c3fbv cx3jz cgi3a cqzh1">-&gt;</span>
+                                                        </span>
+                                                    </button>
+                                                </div>
+                                                <ul class="cvdvu">
+                                                    <li class="ce26k cm7bi c2sao csip8 ckogj c4agq c4ruo">
+                                                        <span class="cmuyi">Company</span>
+                                                        <span class="cit3o ccqx1">Github</span>
+                                                    </li>
+                                                    <li class="ce26k cm7bi c2sao csip8 ckogj c4agq c4ruo">
+                                                        <span class="cmuyi">Website</span>
+                                                        <a class="c3fbv c2sao ccqx1 cb8bv c4agq" href="#0">
+                                                            <span>github.com</span>
+                                                            <svg class="cm1cr" xmlns="http://www.w3.org/2000/svg" width="9" height="9">
+                                                                <path d="m1.285 8.514-.909-.915 5.513-5.523H1.663l.01-1.258h6.389v6.394H6.794l.01-4.226z"></path>
+                                                            </svg>
+                                                        </a>
+                                                    </li>
+                                                    <li class="ce26k cm7bi c2sao csip8 ckogj c4agq c4ruo">
+                                                        <span class="cmuyi">Industry</span>
+                                                        <span class="cit3o ccqx1">Technology</span>
+                                                    </li>
+                                                    <li class="ce26k cm7bi c2sao csip8 ckogj c4agq c4ruo">
+                                                        <span class="cmuyi">Installs</span>
+                                                        <span class="cit3o ccqx1">100K+</span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+            
+                                    </div>
+            
+                                </div>
+                            </aside>
+            
+                        </div>
+            
+                    </div>
+                </div>
+            </section>
+
+        </main>
+        <!-- Site footer -->
+        <footer>
+            <div class="co3q6 csm51 csya4 ccyhi">
+        
+                <!-- Blocks -->
+                <div class="co97x cbinm cb684 c68vp cjyiu">
+        
+                    <!-- 1st block -->
+                    <div class="cbwex c4g3l c5tjy ciof7">
+                        <div class="cm7bi cacyx c32lj cfebz ck8nf c4agq">
+                            <div class="cx0x3 cuash">
+                                <div class="cuash">
+                                    <!-- Logo -->
+                                    <a class="cwban" href="index-2.html" aria-label="Cruip">
+                                        <img src="images/logo.svg" width="38" height="38" alt="Stellar">
+                                    </a>
+                                </div>
+                                <div class="cit3o cvdvu">© Cruip.com <span class="cgzoy">-</span> All rights reserved.</div>
+                            </div>
+                            <!-- Social links -->
+                            <ul class="c4agq">
+                                <li class="cmzyi">
+                                    <a class="clu19 c3fbv csqqr c2sao cx3jz cgi3a cqxsj c4agq" href="https://github.com/Ahmad-EM" aria-label="Github">
+                                        <svg class="cm1cr cq85g ccmi9" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M16 8.2c-4.4 0-8 3.6-8 8 0 3.5 2.3 6.5 5.5 7.6.4.1.5-.2.5-.4V22c-2.2.5-2.7-1-2.7-1-.4-.9-.9-1.2-.9-1.2-.7-.5.1-.5.1-.5.8.1 1.2.8 1.2.8.7 1.3 1.9.9 2.3.7.1-.5.3-.9.5-1.1-1.8-.2-3.6-.9-3.6-4 0-.9.3-1.6.8-2.1-.1-.2-.4-1 .1-2.1 0 0 .7-.2 2.2.8.6-.2 1.3-.3 2-.3s1.4.1 2 .3c1.5-1 2.2-.8 2.2-.8.4 1.1.2 1.9.1 2.1.5.6.8 1.3.8 2.1 0 3.1-1.9 3.7-3.7 3.9.3.4.6.9.6 1.6v2.2c0 .2.1.5.6.4 3.2-1.1 5.5-4.1 5.5-7.6-.1-4.4-3.7-8-8.1-8z"></path>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+        
+                    <!-- 2nd block -->
+                    <div class="cdq95 cel2w cg678">
+                        <h6 class="c8azi ccqx1 cvdvu cawjf">Products</h6>
+                        <ul class="ccea9 cvdvu">
+                            <li>
+                                <a class="ciok5 cmuyi cx3jz cgi3a cqxsj" href="#0">Features</a>
+                            </li>
+                            <li>
+                                <a class="ciok5 cmuyi cx3jz cgi3a cqxsj" href="#0">Integrations</a>
+                            </li>
+                            <li>
+                                <a class="ciok5 cmuyi cx3jz cgi3a cqxsj" href="#0">Pricing &amp; Plans</a>
+                            </li>
+                            <li>
+                                <a class="ciok5 cmuyi cx3jz cgi3a cqxsj" href="#0">Changelog</a>
+                            </li>
+                            <li>
+                                <a class="ciok5 cmuyi cx3jz cgi3a cqxsj" href="#0">Our method</a>
+                            </li>
+                        </ul>
+                    </div>
+        
+                    <!-- 3rd block -->
+                    <div class="cdq95 cel2w cg678">
+                        <h6 class="c8azi ccqx1 cvdvu cawjf">Company</h6>
+                        <ul class="ccea9 cvdvu">
+                            <li>
+                                <a class="ciok5 cmuyi cx3jz cgi3a cqxsj" href="#0">About us</a>
+                            </li>
+                            <li>
+                                <a class="ciok5 cmuyi cx3jz cgi3a cqxsj" href="#0">Diversity &amp; Inclusion</a>
+                            </li>
+                            <li>
+                                <a class="ciok5 cmuyi cx3jz cgi3a cqxsj" href="#0">Blog</a>
+                            </li>
+                            <li>
+                                <a class="ciok5 cmuyi cx3jz cgi3a cqxsj" href="#0">Careers</a>
+                            </li>
+                            <li>
+                                <a class="ciok5 cmuyi cx3jz cgi3a cqxsj" href="#0">Financial statements</a>
+                            </li>
+                        </ul>
+                    </div>
+        
+                    <!-- 4th block -->
+                    <div class="cdq95 cel2w cg678">
+                        <h6 class="c8azi ccqx1 cvdvu cawjf">Resources</h6>
+                        <ul class="ccea9 cvdvu">
+                            <li>
+                                <a class="ciok5 cmuyi cx3jz cgi3a cqxsj" href="#0">Community</a>
+                            </li>
+                            <li>
+                                <a class="ciok5 cmuyi cx3jz cgi3a cqxsj" href="#0">Terms of service</a>
+                            </li>
+                            <li>
+                                <a class="ciok5 cmuyi cx3jz cgi3a cqxsj" href="#0">Report a vulnerability</a>
+                            </li>
+                        </ul>
+                    </div>
+        
+                    <!-- 5th block -->
+                    <div class="cdq95 cel2w cg678">
+                        <h6 class="c8azi ccqx1 cvdvu cawjf">Legals</h6>
+                        <ul class="ccea9 cvdvu">
+                            <li>
+                                <a class="ciok5 cmuyi cx3jz cgi3a cqxsj" href="#0">Refund policy</a>
+                            </li>
+                            <li>
+                                <a class="ciok5 cmuyi cx3jz cgi3a cqxsj" href="#0">Terms &amp; Conditions</a>
+                            </li>
+                            <li>
+                                <a class="ciok5 cmuyi cx3jz cgi3a cqxsj" href="#0">Privacy policy</a>
+                            </li>
+                            <li>
+                                <a class="ciok5 cmuyi cx3jz cgi3a cqxsj" href="#0">Brand Kit</a>
+                            </li>
+                        </ul>
+                    </div>
+        
+                </div>
+        
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="js/vendors/alpinejs.min.js" defer=""></script>
+    <script src="js/vendors/aos.js"></script>
+    <script src="js/vendors/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+
+
+
+<script>console.log("%cImportant!", "color: blue; font-size: x-large");console.log("%cThe page you are viewing is for demo purposes only. CSS and HTML have been minified and class names have been shortened to improve the page load time. Download our templates from https://cruip.com/ 😉", "font-size: large");</script><script>const pagesList = [{"name":"Home","url":"https://preview.cruip.com/stellar/index.html","active":true},{"name":"About","url":"https://preview.cruip.com/stellar/about.html","active":false},{"name":"Integrations","url":"https://preview.cruip.com/stellar/integrations.html","active":false},{"name":"Integration Post","url":"https://preview.cruip.com/stellar/integrations-single.html","active":false},{"name":"Pricing","url":"https://preview.cruip.com/stellar/pricing.html","active":false},{"name":"Customers","url":"https://preview.cruip.com/stellar/customers.html","active":false},{"name":"Customer Post","url":"https://preview.cruip.com/stellar/customer.html","active":false},{"name":"Changelog","url":"https://preview.cruip.com/stellar/changelog.html","active":false},{"name":"Sign in","url":"https://preview.cruip.com/stellar/signin.html","active":false},{"name":"Sign up","url":"https://preview.cruip.com/stellar/signup.html","active":false},{"name":"Reset password","url":"https://preview.cruip.com/stellar/reset-password.html","active":false}];if(window != top){window.parent.postMessage(pagesList, "https://cruip.com/")};</script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317" integrity="sha512-euoFGowhlaLqXsPWQ48qSkBSCFs3DPRyiwVu3FjR96cMPx+Fr+gpWRhIafcHwqwCqWS42RZhIudOvEI+Ckf6MA==" data-cf-beacon='{"rayId":"8612fdb399cd99b4","version":"2024.2.4","r":1,"token":"59cc17d45d734f9ba118c63036ab1b84","b":1}' crossorigin="anonymous"></script>
+</body>
+<!-- Mirrored from preview.cruip.com/stellar/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 08 Mar 2024 12:57:56 GMT -->
+</html>

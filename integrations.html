@@ -1,0 +1,933 @@
+<!DOCTYPE html><html lang="en" class="cmmz3">
+<!-- Mirrored from preview.cruip.com/stellar/integrations.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 08 Mar 2024 12:58:26 GMT -->
+<head>
+    <meta charset="utf-8">
+    <title>Stellar HTML Demo - Integrations</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="css/vendors/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/vendors/swiper-bundle.min.css">
+    <link href="style.css" rel="stylesheet">
+<script defer data-domain='preview.cruip.com,rollup.cruip.com' src='../../plausible.cruip.com/js/script.js'></script></head>
+
+<body class="c4f4x cnihn cs2bp c55gg czrq6">
+
+    <!-- Page wrapper -->
+    <div class="crm2f cbvce cxgh5 cfebz c4agq">
+
+        <!-- Site header -->
+        <header class="ca5ue ca0gw cverl">
+            <div class="co3q6 csm51 csya4 ccyhi">
+                <div class="cm7bi c2sao c4jjw c4agq cm0fl">
+
+                    <!-- Site branding -->
+                    <div class="ci0vw">
+                        <!-- Logo -->
+                        <a class="cwban" href="index-2.html" aria-label="Cruip">
+                            <img class="cbdyn" src="images/logo.svg" width="38" height="38" alt="Stellar">
+                        </a>
+                    </div>
+
+                    <!-- Desktop navigation -->
+                    <nav class="cp37h cjnbw ch9bk">
+
+                        <!-- Desktop menu links -->
+                        <ul class="csqqr c2sao cbsu6 c4agq c9wgl">
+                            <li>
+                                <a class="c0z2s cit3o cx3jz ccqx1 cgi3a cqxsj ch2qt cvdvu ciz32" href="about.html">About</a>
+                            </li>
+                            <li>
+                                <a class="c0z2s cit3o cx3jz ccqx1 cgi3a cqxsj ch2qt cvdvu ciz32" href="integrations.html">Integrations</a>
+                            </li>
+                            <li>
+                                <a class="c0z2s cit3o cx3jz ccqx1 cgi3a cqxsj ch2qt cvdvu ciz32" href="pricing.html">Pricing</a>
+                            </li>
+                            <li>
+                                <a class="c0z2s cit3o cx3jz ccqx1 cgi3a cqxsj ch2qt cvdvu ciz32" href="customers.html">Customers</a>
+                            </li>
+                            <li>
+                                <a class="c0z2s cit3o cx3jz ccqx1 cgi3a cqxsj ch2qt cvdvu ciz32" href="changelog.html">Changelog</a>
+                            </li>
+                        </ul>
+
+                    </nav>
+
+                    <!-- Desktop sign in links -->
+                    <ul class="c2sao cq21c ci0vw c4agq">
+                        <li>
+                            <a class="cz30y c0z2s cit3o cx3jz ccqx1 cgi3a cqxsj cvdvu" href="signin.html">Sign in</a>
+                        </li>
+                        <li class="cci1o">
+                            <a class="c3d7q c272e cegg3 c8isz c0z2s c1mpe ccqfq cit3o cx3jz cgi3a cqxsj c27r3 cfl4k ca0gw cq2yg" href="signup.html">
+                                <span class="c2sao cwban c27r3">
+                                    Sign up <span class="c9pof c406y cxxyq c3fbv cx3jz cgi3a cqzh1">-&gt;</span>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <!-- Mobile menu -->
+                    <div class="c2sao c89zz cwap3 c4agq" x-data="{ expanded: false }">
+                    
+                        <!-- Hamburger button -->
+                        <button class="c381v" :class="{ 'active': expanded }" @click.stop="expanded = !expanded" aria-controls="mobile-nav" :aria-expanded="expanded">
+                            <span class="cmmna">Menu</span>
+                            <svg class="c0z2s cit3o cm1cr cx3jz cgi3a cqxsj csq2q c7vsq" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <rect y="2" width="20" height="2" rx="1"></rect>
+                                <rect y="9" width="20" height="2" rx="1"></rect>
+                                <rect y="16" width="20" height="2" rx="1"></rect>
+                            </svg>
+                        </button>
+                    
+                        <!-- Mobile navigation -->
+                        <nav id="mobile-nav" class="cbvce cml7t cpjek cgi3a ca5ue chez1 csm51 c1tcw ca0gw ccxsu ccyhi" x-ref="mobileNav" :style="expanded ? 'max-height: ' + $refs.mobileNav.scrollHeight + 'px; opacity: 1' : 'max-height: 0; opacity: .8'" @click.outside="expanded = false" @keydown.escape.window="expanded = false" x-cloak="">
+                            <ul class="c3d7q cy8oh c8nst coow7 cn544 ccyhi">
+                                <li>
+                                    <a class="c0z2s cit3o ccqx1 coow7 cvdvu c4agq" href="about.html">About</a>
+                                </li>
+                                <li>
+                                    <a class="c0z2s cit3o ccqx1 coow7 cvdvu c4agq" href="integrations.html">Integrations</a>
+                                </li>
+                                <li>
+                                    <a class="c0z2s cit3o ccqx1 coow7 cvdvu c4agq" href="pricing.html">Pricing</a>
+                                </li>
+                                <li>
+                                    <a class="c0z2s cit3o ccqx1 coow7 cvdvu c4agq" href="customers.html">Customers</a>
+                                </li>
+                                <li>
+                                    <a class="c0z2s cit3o ccqx1 coow7 cvdvu c4agq" href="changelog.html">Changelog</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    
+                    </div>
+
+                </div>
+            </div>
+        </header>
+
+        <!-- Page content -->
+        <main class="c9wgl">
+
+            <!-- Hero -->
+            <section class="c27r3">
+
+                <!-- Illustration 02 -->
+                <div class="c3sb3 c2vxt c5by6 c3x17 cs26b ca5ue c2s0w c7upq c81ji ch67j" aria-hidden="true">
+                    <img src="images/page-illustration-02.svg" class="cbdyn" width="1440" height="427" alt="Page Illustration 02">
+                </div>
+                
+                <!-- Opacity layer -->
+                <div class="cs2bp cxjfx ca5ue cwmqr ch67j" aria-hidden="true"></div>
+
+                <!-- Radial gradient -->
+                <div class="c3sb3 c2vxt czyer csqqr c21zy c2sao czqre c3x17 ca5ue cl6qg ch67j c4agq" aria-hidden="true">
+                    <div class="c9ua1 chor7 cw2sl cdfzt cz8e7 ca5ue cwmqr"></div>
+                    <div class="chor7 cpgjj cal1k cdfzt cutr4 ca5ue cbc5q cb4st"></div>
+                </div>
+
+                <!-- Particles animation -->
+                <div class="ca5ue cwmqr ch67j ci4x8" aria-hidden="true">
+                    <canvas data-particle-animation="" data-particle-quantity="15"></canvas>
+                </div>
+
+                <!-- Illustration -->
+                <div class="c3sb3 c2vxt c5by6 c3x17 cs26b ca5ue c7upq cnheb ch67j" aria-hidden="true">
+                    <img src="images/page-illustration.svg" class="cbdyn" width="1440" height="427" alt="Page Illustration">
+                </div>
+
+                <div class="co3q6 csm51 csya4 ccyhi">
+                    <div class="cz17m cp02i">
+
+                        <!-- Hero content -->
+                        <div class="cw9su c9eon cifrc">
+                            <div class="ccqrz c6df8 ccal6 cuygr ctwez cwban ccqx1 c6wvq">Integrations &amp; Add-ons</div>
+                            <h1 class="cc7gh ccqrz cx8zw c6df8 cfcmr ctwez cvc1j cbmj0">Make Stellar uniquely yours</h1>
+                            <div class="c80wd csya4">
+                                <p class="cmuyi cbgr1">Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.</p>
+                            </div>
+                        </div>
+
+                        <!-- Carousel built with Swiper.js [https://swiperjs.com/] -->
+                        <!-- * Initialized in src/js/main.js -->
+                        <!-- * Custom styles in src/css/additional-styles/theme.scss -->
+                        <div class="stellar-carousel swiper-container cq2yg">
+                            <div class="swiper-wrapper cxlce">
+                                <!-- Carousel items -->
+                                <div class="swiper-slide cguxs czt1h cqp3k czyxl ccm5l cu167 c260e c27r3 cw4pt cn544 cq2yg">
+                                    <div class="cfebz ck8nf c4agq casgt">
+                                        <div class="c2sao cujq3 c9eco c4agq">
+                                            <div class="c27r3">
+                                                <img src="images/integrations-01.svg" width="40" height="40" alt="Icon 01">
+                                                <img class="ca5ue coopx cl6qg" src="images/star.svg" width="16" height="16" alt="Star" aria-hidden="true">
+                                            </div>
+                                            <a class="cur25 cdxod cc7gh ccqrz cx8zw c6df8 cfcmr ckot6 ctwez" href="integrations-single.html">Retool</a>
+                                        </div>
+                                        <div class="cuash c9wgl">
+                                            <div class="cmuyi cvdvu">Stellar makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.</div>
+                                        </div>
+                                        <div class="cm7bi c4agq">
+                                            <div class="c0isr cjbcs c4agq">
+                                                <img class="czyxl cdfzt ccnpz cwxmo" src="images/avatar-01.jpg" width="24" height="24" alt="Avatar 01">
+                                                <img class="czyxl cdfzt ccnpz cwxmo" src="images/avatar-02.jpg" width="24" height="24" alt="Avatar 02">
+                                                <img class="czyxl cdfzt ccnpz cwxmo" src="images/avatar-03.jpg" width="24" height="24" alt="Avatar 03">
+                                                <img class="czyxl cdfzt ccnpz cwxmo" src="images/avatar-04.jpg" width="24" height="24" alt="Avatar 04">
+                                            </div>
+                                            <button class="cqp3k c0z2s cit3o c2sao ccqx1 csip8 cvdvu c4agq">
+                                                <span class="cmmna">Like</span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16">
+                                                    <path class="colnz" d="M11.86 15.154 8 13.125l-3.86 2.03c-.726.386-1.591-.236-1.45-1.055l.737-4.299L.303 6.757a1 1 0 0 1 .555-1.706l4.316-.627L7.104.512c.337-.683 1.458-.683 1.794 0l1.93 3.911 4.317.627a1.001 1.001 0 0 1 .555 1.706l-3.124 3.045.737 4.3c.14.822-.726 1.435-1.452 1.053ZM8.468 11.11l2.532 1.331-.483-2.82a1 1 0 0 1 .287-.885l2.049-1.998-2.831-.41a.996.996 0 0 1-.753-.548L8 3.214 6.734 5.78a1 1 0 0 1-.753.547l-2.831.411 2.049 1.998a1 1 0 0 1 .287.885l-.483 2.82 2.532-1.33a.998.998 0 0 1 .932 0Z"></path>
+                                                </svg>
+                                                <span>2.3K</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide cguxs czt1h cqp3k czyxl ccm5l cu167 c260e c27r3 cw4pt cn544 cq2yg">
+                                    <div class="cfebz ck8nf c4agq casgt">
+                                        <div class="c2sao cujq3 c9eco c4agq">
+                                            <div class="c27r3">
+                                                <img src="images/integrations-02.svg" width="40" height="40" alt="Icon 02">
+                                                <img class="ca5ue coopx cl6qg" src="images/star.svg" width="16" height="16" alt="Star" aria-hidden="true">
+                                            </div>
+                                            <a class="cur25 cdxod cc7gh ccqrz cx8zw c6df8 cfcmr ckot6 ctwez" href="integrations-single.html">Zapier</a>
+                                        </div>
+                                        <div class="cuash c9wgl">
+                                            <div class="cmuyi cvdvu">Stellar makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.</div>
+                                        </div>
+                                        <div class="cm7bi c4agq">
+                                            <div class="c0isr cjbcs c4agq">
+                                                <img class="czyxl cdfzt ccnpz cwxmo" src="images/avatar-05.jpg" width="24" height="24" alt="Avatar 05">
+                                                <img class="czyxl cdfzt ccnpz cwxmo" src="images/avatar-06.jpg" width="24" height="24" alt="Avatar 06">
+                                                <img class="czyxl cdfzt ccnpz cwxmo" src="images/avatar-07.jpg" width="24" height="24" alt="Avatar 07">
+                                            </div>
+                                            <button class="cqp3k c0z2s cit3o c2sao ccqx1 csip8 cvdvu c4agq">
+                                                <span class="cmmna">Like</span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16">
+                                                    <path class="colnz" d="M11.86 15.154 8 13.125l-3.86 2.03c-.726.386-1.591-.236-1.45-1.055l.737-4.299L.303 6.757a1 1 0 0 1 .555-1.706l4.316-.627L7.104.512c.337-.683 1.458-.683 1.794 0l1.93 3.911 4.317.627a1.001 1.001 0 0 1 .555 1.706l-3.124 3.045.737 4.3c.14.822-.726 1.435-1.452 1.053ZM8.468 11.11l2.532 1.331-.483-2.82a1 1 0 0 1 .287-.885l2.049-1.998-2.831-.41a.996.996 0 0 1-.753-.548L8 3.214 6.734 5.78a1 1 0 0 1-.753.547l-2.831.411 2.049 1.998a1 1 0 0 1 .287.885l-.483 2.82 2.532-1.33a.998.998 0 0 1 .932 0Z"></path>
+                                                </svg>
+                                                <span>4.5K</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide cguxs czt1h cqp3k czyxl ccm5l cu167 c260e c27r3 cw4pt cn544 cq2yg">
+                                    <div class="cfebz ck8nf c4agq casgt">
+                                        <div class="c2sao cujq3 c9eco c4agq">
+                                            <div class="c27r3">
+                                                <img src="images/integrations-03.svg" width="40" height="40" alt="Icon 03">
+                                                <img class="ca5ue coopx cl6qg" src="images/star.svg" width="16" height="16" alt="Star" aria-hidden="true">
+                                            </div>
+                                            <a class="cur25 cdxod cc7gh ccqrz cx8zw c6df8 cfcmr ckot6 ctwez" href="integrations-single.html">Airtable</a>
+                                        </div>
+                                        <div class="cuash c9wgl">
+                                            <div class="cmuyi cvdvu">Stellar makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.</div>
+                                        </div>
+                                        <div class="cm7bi c4agq">
+                                            <div class="c0isr cjbcs c4agq">
+                                                <img class="czyxl cdfzt ccnpz cwxmo" src="images/avatar-08.jpg" width="24" height="24" alt="Avatar 08">
+                                                <img class="czyxl cdfzt ccnpz cwxmo" src="images/avatar-09.jpg" width="24" height="24" alt="Avatar 09">
+                                                <img class="czyxl cdfzt ccnpz cwxmo" src="images/avatar-10.jpg" width="24" height="24" alt="Avatar 10">
+                                                <img class="czyxl cdfzt ccnpz cwxmo" src="images/avatar-11.jpg" width="24" height="24" alt="Avatar 11">
+                                            </div>
+                                            <button class="cqp3k c0z2s cit3o c2sao ccqx1 csip8 cvdvu c4agq">
+                                                <span class="cmmna">Like</span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16">
+                                                    <path class="colnz" d="M11.86 15.154 8 13.125l-3.86 2.03c-.726.386-1.591-.236-1.45-1.055l.737-4.299L.303 6.757a1 1 0 0 1 .555-1.706l4.316-.627L7.104.512c.337-.683 1.458-.683 1.794 0l1.93 3.911 4.317.627a1.001 1.001 0 0 1 .555 1.706l-3.124 3.045.737 4.3c.14.822-.726 1.435-1.452 1.053ZM8.468 11.11l2.532 1.331-.483-2.82a1 1 0 0 1 .287-.885l2.049-1.998-2.831-.41a.996.996 0 0 1-.753-.548L8 3.214 6.734 5.78a1 1 0 0 1-.753.547l-2.831.411 2.049 1.998a1 1 0 0 1 .287.885l-.483 2.82 2.532-1.33a.998.998 0 0 1 .932 0Z"></path>
+                                                </svg>
+                                                <span>4.7K</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide cguxs czt1h cqp3k czyxl ccm5l cu167 c260e c27r3 cw4pt cn544 cq2yg">
+                                    <div class="cfebz ck8nf c4agq casgt">
+                                        <div class="c2sao cujq3 c9eco c4agq">
+                                            <div class="c27r3">
+                                                <img src="images/integrations-04.svg" width="40" height="40" alt="Icon 04">
+                                                <img class="ca5ue coopx cl6qg" src="images/star.svg" width="16" height="16" alt="Star" aria-hidden="true">
+                                            </div>
+                                            <a class="cur25 cdxod cc7gh ccqrz cx8zw c6df8 cfcmr ckot6 ctwez" href="integrations-single.html">Jira</a>
+                                        </div>
+                                        <div class="cuash c9wgl">
+                                            <div class="cmuyi cvdvu">Stellar makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.</div>
+                                        </div>
+                                        <div class="cm7bi c4agq">
+                                            <div class="c0isr cjbcs c4agq">
+                                                <img class="czyxl cdfzt ccnpz cwxmo" src="images/avatar-12.jpg" width="24" height="24" alt="Avatar 12">
+                                                <img class="czyxl cdfzt ccnpz cwxmo" src="images/avatar-13.jpg" width="24" height="24" alt="Avatar 13">
+                                                <img class="czyxl cdfzt ccnpz cwxmo" src="images/avatar-14.jpg" width="24" height="24" alt="Avatar 14">
+                                                <img class="czyxl cdfzt ccnpz cwxmo" src="images/avatar-15.jpg" width="24" height="24" alt="Avatar 15">
+                                            </div>
+                                            <button class="cqp3k c0z2s cit3o c2sao ccqx1 csip8 cvdvu c4agq">
+                                                <span class="cmmna">Like</span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16">
+                                                    <path class="colnz" d="M11.86 15.154 8 13.125l-3.86 2.03c-.726.386-1.591-.236-1.45-1.055l.737-4.299L.303 6.757a1 1 0 0 1 .555-1.706l4.316-.627L7.104.512c.337-.683 1.458-.683 1.794 0l1.93 3.911 4.317.627a1.001 1.001 0 0 1 .555 1.706l-3.124 3.045.737 4.3c.14.822-.726 1.435-1.452 1.053ZM8.468 11.11l2.532 1.331-.483-2.82a1 1 0 0 1 .287-.885l2.049-1.998-2.831-.41a.996.996 0 0 1-.753-.548L8 3.214 6.734 5.78a1 1 0 0 1-.753.547l-2.831.411 2.049 1.998a1 1 0 0 1 .287.885l-.483 2.82 2.532-1.33a.998.998 0 0 1 .932 0Z"></path>
+                                                </svg>
+                                                <span>4.4K</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide cguxs czt1h cqp3k czyxl ccm5l cu167 c260e c27r3 cw4pt cn544 cq2yg">
+                                    <div class="cfebz ck8nf c4agq casgt">
+                                        <div class="c2sao cujq3 c9eco c4agq">
+                                            <div class="c27r3">
+                                                <img src="images/integrations-05.svg" width="40" height="40" alt="Icon 05">
+                                                <img class="ca5ue coopx cl6qg" src="images/star.svg" width="16" height="16" alt="Star" aria-hidden="true">
+                                            </div>
+                                            <a class="cur25 cdxod cc7gh ccqrz cx8zw c6df8 cfcmr ckot6 ctwez" href="integrations-single.html">GitLab</a>
+                                        </div>
+                                        <div class="cuash c9wgl">
+                                            <div class="cmuyi cvdvu">Stellar makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.</div>
+                                        </div>
+                                        <div class="cm7bi c4agq">
+                                            <div class="c0isr cjbcs c4agq">
+                                                <img class="czyxl cdfzt ccnpz cwxmo" src="images/avatar-16.jpg" width="24" height="24" alt="Avatar 16">
+                                                <img class="czyxl cdfzt ccnpz cwxmo" src="images/avatar-17.jpg" width="24" height="24" alt="Avatar 17">
+                                                <img class="czyxl cdfzt ccnpz cwxmo" src="images/avatar-18.jpg" width="24" height="24" alt="Avatar 18">
+                                                <img class="czyxl cdfzt ccnpz cwxmo" src="images/avatar-19.jpg" width="24" height="24" alt="Avatar 19">
+                                            </div>
+                                            <button class="cqp3k c0z2s cit3o c2sao ccqx1 csip8 cvdvu c4agq">
+                                                <span class="cmmna">Like</span>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16">
+                                                    <path class="colnz" d="M11.86 15.154 8 13.125l-3.86 2.03c-.726.386-1.591-.236-1.45-1.055l.737-4.299L.303 6.757a1 1 0 0 1 .555-1.706l4.316-.627L7.104.512c.337-.683 1.458-.683 1.794 0l1.93 3.911 4.317.627a1.001 1.001 0 0 1 .555 1.706l-3.124 3.045.737 4.3c.14.822-.726 1.435-1.452 1.053ZM8.468 11.11l2.532 1.331-.483-2.82a1 1 0 0 1 .287-.885l2.049-1.998-2.831-.41a.996.996 0 0 1-.753-.548L8 3.214 6.734 5.78a1 1 0 0 1-.753.547l-2.831.411 2.049 1.998a1 1 0 0 1 .287.885l-.483 2.82 2.532-1.33a.998.998 0 0 1 .932 0Z"></path>
+                                                </svg>
+                                                <span>3.4K</span>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <!-- Arrows -->
+                        <div class="cq21c c4agq cjyiu">
+                            <button class="carousel-prev csqqr c2sao c27r3 cq2yg ccxsu c4agq ca8e1 cyddt">
+                                <span class="cmmna">Previous</span>
+                                <svg class="ctnqo colnz cx3jz cgi3a cqxsj cbhpb cpy4b" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M6.7 14.7l1.4-1.4L3.8 9H16V7H3.8l4.3-4.3-1.4-1.4L0 8z"></path>
+                                </svg>
+                            </button>
+                            <button class="carousel-next csqqr c2sao c27r3 cq2yg ccxsu c4agq ca8e1 cyddt">
+                                <span class="cmmna">Next</span>
+                                <svg class="ctnqo colnz cx3jz cgi3a cqxsj cbhpb cpy4b" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M9.3 14.7l-1.4-1.4L12.2 9H0V7h12.2L7.9 2.7l1.4-1.4L16 8z"></path>
+                                </svg>
+                            </button>
+                        </div>
+
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- Categories -->
+            <section>
+                <div class="co3q6 csm51 csya4 ccyhi">
+
+                    <div class="c9eon cifrc">
+                        <!-- Tobpabr -->
+                        <div class="ctnn6 cq450 cm7bi cf0tl c2sao ce58h ckbs2 c4agq c1a1y">
+                            <!-- Links -->
+                            <ul class="cgft4 ccqx1 ce58h cvdvu c4agq">
+                                <li>
+                                    <a class="cz30y cqp3k c0z2s c8azi c2sao csip8 c4agq" href="#engineering">
+                                        <svg class="colnz" xmlns="http://www.w3.org/2000/svg" width="16" height="16">
+                                            <path d="m7.7 7.3-5-5c-.4-.4-1-.4-1.4 0-.4.4-.4 1 0 1.4L5.6 8l-4.3 4.3c-.4.4-.4 1 0 1.4.2.2.4.3.7.3.3 0 .5-.1.7-.3l5-5c.4-.4.4-1 0-1.4ZM8 12h7v2H8z"></path>
+                                        </svg>
+                                        <span>Engineering</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="cz30y cqp3k c0z2s c8azi c2sao csip8 c4agq" href="#nocode">
+                                        <svg class="colnz" xmlns="http://www.w3.org/2000/svg" width="16" height="16">
+                                            <path d="M10 15c-.4 0-.8-.3-.9-.7L5.8 4.6 3.9 8.4c-.2.4-.5.6-.9.6H0V7h2.4l2.7-5.4c.2-.4.6-.6 1-.6s.7.3.9.7l3.2 9.7 1.9-3.8c.2-.4.5-.6.9-.6h3v2h-2.4l-2.7 5.4c-.2.4-.5.6-.9.6Z"></path>
+                                        </svg>
+                                        <span>No-code</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="cz30y cqp3k c0z2s c8azi c2sao csip8 c4agq" href="#collaboration">
+                                        <svg class="colnz" xmlns="http://www.w3.org/2000/svg" width="16" height="16">
+                                            <path d="M7.3 9.7c-.4-.4-.4-1 0-1.4l7-7c.4-.4 1-.4 1.4 0 .4.4.4 1 0 1.4l-7 7c-.4.4-1 .4-1.4 0ZM7.3 15.7c-.4-.4-.4-1 0-1.4l7-7c.4-.4 1-.4 1.4 0 .4.4.4 1 0 1.4l-7 7c-.4.4-1 .4-1.4 0ZM.3 10.7c-.4-.4-.4-1 0-1.4l7-7c.4-.4 1-.4 1.4 0 .4.4.4 1 0 1.4l-7 7c-.4.4-1 .4-1.4 0Z"></path>
+                                        </svg>
+                                        <span>Collaboration</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a class="cz30y cqp3k c0z2s c8azi c2sao csip8 c4agq" href="#productivity">
+                                        <svg class="colnz" xmlns="http://www.w3.org/2000/svg" width="16" height="16">
+                                            <path d="M11.505 14.135a1 1 0 0 1 .175-1.403A5.967 5.967 0 0 0 14 8c0-3.309-2.691-6-6-6S2 4.691 2 8c0 1.858.846 3.583 2.32 4.731a1 1 0 0 1-1.228 1.578A7.951 7.951 0 0 1 0 8c0-4.411 3.589-8 8-8s8 3.589 8 8a7.955 7.955 0 0 1-3.092 6.31 1.001 1.001 0 0 1-1.403-.175Z"></path>
+                                            <path d="M9.045 10.973a1 1 0 0 1 .175-1.404A1.98 1.98 0 0 0 10 8c0-1.103-.897-2-2-2s-2 .897-2 2c0 .611.284 1.184.78 1.569a1 1 0 1 1-1.228 1.578A3.967 3.967 0 0 1 4 8c0-2.206 1.794-4 4-4s4 1.794 4 4c0 1.232-.565 2.38-1.552 3.147a.999.999 0 0 1-1.403-.174Z"></path>
+                                        </svg>
+                                        <span>Productivity</span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <div>
+                                <form class="c2sao c27r3 c4agq">
+                                    <input class="c2307 cqwzm cpxdt czukz c4mow cm0os c6i2l cfgaj c6khg" type="text" id="search" aria-label="Search…" placeholder="Search…" autocomplete="off">
+                                    <div class="c3sb3 csqqr c2sao ca5ue cwmqr c4agq cnacl">
+                                        <svg class="cs1uf ca5ue c9ixl" xmlns="http://www.w3.org/2000/svg" width="16" height="16">
+                                            <path d="M7 14c-3.86 0-7-3.14-7-7s3.14-7 7-7 7 3.14 7 7-3.14 7-7 7ZM7 2C4.243 2 2 4.243 2 7s2.243 5 5 5 5-2.243 5-5-2.243-5-5-5Zm8.707 12.293a.999.999 0 1 1-1.414 1.414L11.9 13.314a8.019 8.019 0 0 0 1.414-1.414l2.393 2.393Z"></path>
+                                        </svg>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+    
+                        <!-- Cards -->
+                        <div>
+                            <!-- Section #1 -->
+                            <div class="cx0ze cb69b">
+                                <h3 id="engineering" class="cc7gh ccqrz cx8zw c6df8 cfcmr ctwez cwban ctwxk cflos ciblf cte24">Engineering</h3>
+                                <div class="c4mpz cfcoj cvti0 c68vp">
+                                    <!-- Card #1 -->
+                                    <div class="cguxs czt1h cqp3k czyxl ccm5l cu167 c260e c27r3 cn544 cq2yg">
+                                        <div class="cfebz ck8nf c4agq casgt">
+                                            <div class="c2sao cujq3 c9eco c4agq">
+                                                <div class="c27r3">
+                                                    <img src="images/integrations-06.svg" width="40" height="40" alt="Icon 06">
+                                                    <img class="ca5ue coopx cl6qg" src="images/star.svg" width="16" height="16" alt="Star" aria-hidden="true">
+                                                </div>
+                                                <a class="cur25 cdxod cc7gh ccqrz cx8zw c6df8 cfcmr ckot6 ctwez" href="integrations-single.html">Vercel</a>
+                                            </div>
+                                            <div class="c9wgl">
+                                                <div class="cmuyi cvdvu">Stellar makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Card #2 -->
+                                    <div class="cguxs czt1h cqp3k czyxl ccm5l cu167 c260e c27r3 cn544 cq2yg">
+                                        <div class="cfebz ck8nf c4agq casgt">
+                                            <div class="c2sao cujq3 c9eco c4agq">
+                                                <div class="c27r3">
+                                                    <img src="images/integrations-07.svg" width="40" height="40" alt="Icon 07">
+                                                </div>
+                                                <a class="cur25 cdxod cc7gh ccqrz cx8zw c6df8 cfcmr ckot6 ctwez" href="integrations-single.html">Sentry</a>
+                                            </div>
+                                            <div class="c9wgl">
+                                                <div class="cmuyi cvdvu">Stellar makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Card #3 -->
+                                    <div class="cguxs czt1h cqp3k czyxl ccm5l cu167 c260e c27r3 cn544 cq2yg">
+                                        <div class="cfebz ck8nf c4agq casgt">
+                                            <div class="c2sao cujq3 c9eco c4agq">
+                                                <div class="c27r3">
+                                                    <img src="images/integrations-04.svg" width="40" height="40" alt="Icon 04">
+                                                    <img class="ca5ue coopx cl6qg" src="images/star.svg" width="16" height="16" alt="Star" aria-hidden="true">
+                                                </div>
+                                                <a class="cur25 cdxod cc7gh ccqrz cx8zw c6df8 cfcmr ckot6 ctwez" href="integrations-single.html">Jira</a>
+                                            </div>
+                                            <div class="c9wgl">
+                                                <div class="cmuyi cvdvu">Stellar makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Card #4 -->
+                                    <div class="cguxs czt1h cqp3k czyxl ccm5l cu167 c260e c27r3 cn544 cq2yg">
+                                        <div class="cfebz ck8nf c4agq casgt">
+                                            <div class="c2sao cujq3 c9eco c4agq">
+                                                <div class="c27r3">
+                                                    <img src="images/integrations-08.svg" width="40" height="40" alt="Icon 08">
+                                                    <img class="ca5ue coopx cl6qg" src="images/star.svg" width="16" height="16" alt="Star" aria-hidden="true">
+                                                </div>
+                                                <a class="cur25 cdxod cc7gh ccqrz cx8zw c6df8 cfcmr ckot6 ctwez" href="integrations-single.html">GitHub</a>
+                                            </div>
+                                            <div class="c9wgl">
+                                                <div class="cmuyi cvdvu">Stellar makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Card #5 -->
+                                    <div class="cguxs czt1h cqp3k czyxl ccm5l cu167 c260e c27r3 cn544 cq2yg">
+                                        <div class="cfebz ck8nf c4agq casgt">
+                                            <div class="c2sao cujq3 c9eco c4agq">
+                                                <div class="c27r3">
+                                                    <img src="images/integrations-05.svg" width="40" height="40" alt="Icon 05">
+                                                    <img class="ca5ue coopx cl6qg" src="images/star.svg" width="16" height="16" alt="Star" aria-hidden="true">
+                                                </div>
+                                                <a class="cur25 cdxod cc7gh ccqrz cx8zw c6df8 cfcmr ckot6 ctwez" href="integrations-single.html">GitLab</a>
+                                            </div>
+                                            <div class="c9wgl">
+                                                <div class="cmuyi cvdvu">Stellar makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Card #6 -->
+                                    <div class="cguxs czt1h cqp3k czyxl ccm5l cu167 c260e c27r3 cn544 cq2yg">
+                                        <div class="cfebz ck8nf c4agq casgt">
+                                            <div class="c2sao cujq3 c9eco c4agq">
+                                                <div class="c27r3">
+                                                    <img src="images/integrations-01.svg" width="40" height="40" alt="Icon 01">
+                                                    <img class="ca5ue coopx cl6qg" src="images/star.svg" width="16" height="16" alt="Star" aria-hidden="true">
+                                                </div>
+                                                <a class="cur25 cdxod cc7gh ccqrz cx8zw c6df8 cfcmr ckot6 ctwez" href="integrations-single.html">Retool</a>
+                                            </div>
+                                            <div class="c9wgl">
+                                                <div class="cmuyi cvdvu">Stellar makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Section #2 -->
+                            <div class="cx0ze cb69b">
+                                <h3 id="nocode" class="cc7gh ccqrz cx8zw c6df8 cfcmr ctwez cwban ctwxk cflos ciblf cte24">No-code</h3>
+                                <div class="c4mpz cfcoj cvti0 c68vp">
+                                    <!-- Card #1 -->
+                                    <div class="cguxs czt1h cqp3k czyxl ccm5l cu167 c260e c27r3 cn544 cq2yg">
+                                        <div class="cfebz ck8nf c4agq casgt">
+                                            <div class="c2sao cujq3 c9eco c4agq">
+                                                <div class="c27r3">
+                                                    <img src="images/integrations-02.svg" width="40" height="40" alt="Icon 02">
+                                                    <img class="ca5ue coopx cl6qg" src="images/star.svg" width="16" height="16" alt="Star" aria-hidden="true">
+                                                </div>
+                                                <a class="cur25 cdxod cc7gh ccqrz cx8zw c6df8 cfcmr ckot6 ctwez" href="integrations-single.html">Zapier</a>
+                                            </div>
+                                            <div class="c9wgl">
+                                                <div class="cmuyi cvdvu">Stellar makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Card #2 -->
+                                    <div class="cguxs czt1h cqp3k czyxl ccm5l cu167 c260e c27r3 cn544 cq2yg">
+                                        <div class="cfebz ck8nf c4agq casgt">
+                                            <div class="c2sao cujq3 c9eco c4agq">
+                                                <div class="c27r3">
+                                                    <img src="images/integrations-03.svg" width="40" height="40" alt="Icon 03">
+                                                    <img class="ca5ue coopx cl6qg" src="images/star.svg" width="16" height="16" alt="Star" aria-hidden="true">
+                                                </div>
+                                                <a class="cur25 cdxod cc7gh ccqrz cx8zw c6df8 cfcmr ckot6 ctwez" href="integrations-single.html">Airtable</a>
+                                            </div>
+                                            <div class="c9wgl">
+                                                <div class="cmuyi cvdvu">Stellar makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Card #3 -->
+                                    <div class="cguxs czt1h cqp3k czyxl ccm5l cu167 c260e c27r3 cn544 cq2yg">
+                                        <div class="cfebz ck8nf c4agq casgt">
+                                            <div class="c2sao cujq3 c9eco c4agq">
+                                                <div class="c27r3">
+                                                    <img src="images/integrations-09.svg" width="40" height="40" alt="Icon 09">
+                                                    <img class="ca5ue coopx cl6qg" src="images/star.svg" width="16" height="16" alt="Star" aria-hidden="true">
+                                                </div>
+                                                <a class="cur25 cdxod cc7gh ccqrz cx8zw c6df8 cfcmr ckot6 ctwez" href="integrations-single.html">Framer</a>
+                                            </div>
+                                            <div class="c9wgl">
+                                                <div class="cmuyi cvdvu">Stellar makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Card #4 -->
+                                    <div class="cguxs czt1h cqp3k czyxl ccm5l cu167 c260e c27r3 cn544 cq2yg">
+                                        <div class="cfebz ck8nf c4agq casgt">
+                                            <div class="c2sao cujq3 c9eco c4agq">
+                                                <div class="c27r3">
+                                                    <img src="images/integrations-10.svg" width="40" height="40" alt="Icon 10">
+                                                </div>
+                                                <a class="cur25 cdxod cc7gh ccqrz cx8zw c6df8 cfcmr ckot6 ctwez" href="integrations-single.html">Jotform</a>
+                                            </div>
+                                            <div class="c9wgl">
+                                                <div class="cmuyi cvdvu">Stellar makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Card #5 -->
+                                    <div class="cguxs czt1h cqp3k czyxl ccm5l cu167 c260e c27r3 cn544 cq2yg">
+                                        <div class="cfebz ck8nf c4agq casgt">
+                                            <div class="c2sao cujq3 c9eco c4agq">
+                                                <div class="c27r3">
+                                                    <img src="images/integrations-11.svg" width="40" height="40" alt="Icon 11">
+                                                    <img class="ca5ue coopx cl6qg" src="images/star.svg" width="16" height="16" alt="Star" aria-hidden="true">
+                                                </div>
+                                                <a class="cur25 cdxod cc7gh ccqrz cx8zw c6df8 cfcmr ckot6 ctwez" href="integrations-single.html">Webflow</a>
+                                            </div>
+                                            <div class="c9wgl">
+                                                <div class="cmuyi cvdvu">Stellar makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Card #6 -->
+                                    <div class="cguxs czt1h cqp3k czyxl ccm5l cu167 c260e c27r3 cn544 cq2yg">
+                                        <div class="cfebz ck8nf c4agq casgt">
+                                            <div class="c2sao cujq3 c9eco c4agq">
+                                                <div class="c27r3">
+                                                    <img src="images/integrations-12.svg" width="40" height="40" alt="Icon 12">
+                                                </div>
+                                                <a class="cur25 cdxod cc7gh ccqrz cx8zw c6df8 cfcmr ckot6 ctwez" href="integrations-single.html">Coda</a>
+                                            </div>
+                                            <div class="c9wgl">
+                                                <div class="cmuyi cvdvu">Stellar makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Section #3 -->
+                            <div class="cx0ze cb69b">
+                                <h3 id="collaboration" class="cc7gh ccqrz cx8zw c6df8 cfcmr ctwez cwban ctwxk cflos ciblf cte24">Collaboration</h3>
+                                <div class="c4mpz cfcoj cvti0 c68vp">
+                                    <!-- Card #1 -->
+                                    <div class="cguxs czt1h cqp3k czyxl ccm5l cu167 c260e c27r3 cn544 cq2yg">
+                                        <div class="cfebz ck8nf c4agq casgt">
+                                            <div class="c2sao cujq3 c9eco c4agq">
+                                                <div class="c27r3">
+                                                    <img src="images/integrations-13.svg" width="40" height="40" alt="Icon 13">
+                                                    <img class="ca5ue coopx cl6qg" src="images/star.svg" width="16" height="16" alt="Star" aria-hidden="true">
+                                                </div>
+                                                <a class="cur25 cdxod cc7gh ccqrz cx8zw c6df8 cfcmr ckot6 ctwez" href="integrations-single.html">Asana</a>
+                                            </div>
+                                            <div class="c9wgl">
+                                                <div class="cmuyi cvdvu">Stellar makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Card #2 -->
+                                    <div class="cguxs czt1h cqp3k czyxl ccm5l cu167 c260e c27r3 cn544 cq2yg">
+                                        <div class="cfebz ck8nf c4agq casgt">
+                                            <div class="c2sao cujq3 c9eco c4agq">
+                                                <div class="c27r3">
+                                                    <img src="images/integrations-14.svg" width="40" height="40" alt="Icon 14">
+                                                    <img class="ca5ue coopx cl6qg" src="images/star.svg" width="16" height="16" alt="Star" aria-hidden="true">
+                                                </div>
+                                                <a class="cur25 cdxod cc7gh ccqrz cx8zw c6df8 cfcmr ckot6 ctwez" href="integrations-single.html">Myngo</a>
+                                            </div>
+                                            <div class="c9wgl">
+                                                <div class="cmuyi cvdvu">Stellar makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Card #3 -->
+                                    <div class="cguxs czt1h cqp3k czyxl ccm5l cu167 c260e c27r3 cn544 cq2yg">
+                                        <div class="cfebz ck8nf c4agq casgt">
+                                            <div class="c2sao cujq3 c9eco c4agq">
+                                                <div class="c27r3">
+                                                    <img src="images/integrations-15.svg" width="40" height="40" alt="Icon 15">
+                                                    <img class="ca5ue coopx cl6qg" src="images/star.svg" width="16" height="16" alt="Star" aria-hidden="true">
+                                                </div>
+                                                <a class="cur25 cdxod cc7gh ccqrz cx8zw c6df8 cfcmr ckot6 ctwez" href="integrations-single.html">Bonsai</a>
+                                            </div>
+                                            <div class="c9wgl">
+                                                <div class="cmuyi cvdvu">Stellar makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Card #4 -->
+                                    <div class="cguxs czt1h cqp3k czyxl ccm5l cu167 c260e c27r3 cn544 cq2yg">
+                                        <div class="cfebz ck8nf c4agq casgt">
+                                            <div class="c2sao cujq3 c9eco c4agq">
+                                                <div class="c27r3">
+                                                    <img src="images/integrations-16.svg" width="40" height="40" alt="Icon 16">
+                                                    <img class="ca5ue coopx cl6qg" src="images/star.svg" width="16" height="16" alt="Star" aria-hidden="true">
+                                                </div>
+                                                <a class="cur25 cdxod cc7gh ccqrz cx8zw c6df8 cfcmr ckot6 ctwez" href="integrations-single.html">Decipad</a>
+                                            </div>
+                                            <div class="c9wgl">
+                                                <div class="cmuyi cvdvu">Stellar makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Card #5 -->
+                                    <div class="cguxs czt1h cqp3k czyxl ccm5l cu167 c260e c27r3 cn544 cq2yg">
+                                        <div class="cfebz ck8nf c4agq casgt">
+                                            <div class="c2sao cujq3 c9eco c4agq">
+                                                <div class="c27r3">
+                                                    <img src="images/integrations-17.svg" width="40" height="40" alt="Icon 17">
+                                                    <img class="ca5ue coopx cl6qg" src="images/star.svg" width="16" height="16" alt="Star" aria-hidden="true">
+                                                </div>
+                                                <a class="cur25 cdxod cc7gh ccqrz cx8zw c6df8 cfcmr ckot6 ctwez" href="integrations-single.html">Miro</a>
+                                            </div>
+                                            <div class="c9wgl">
+                                                <div class="cmuyi cvdvu">Stellar makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Card #6 -->
+                                    <div class="cguxs czt1h cqp3k czyxl ccm5l cu167 c260e c27r3 cn544 cq2yg">
+                                        <div class="cfebz ck8nf c4agq casgt">
+                                            <div class="c2sao cujq3 c9eco c4agq">
+                                                <div class="c27r3">
+                                                    <img src="images/integrations-18.svg" width="40" height="40" alt="Icon 18">
+                                                </div>
+                                                <a class="cur25 cdxod cc7gh ccqrz cx8zw c6df8 cfcmr ckot6 ctwez" href="integrations-single.html">Popform</a>
+                                            </div>
+                                            <div class="c9wgl">
+                                                <div class="cmuyi cvdvu">Stellar makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Section #4 -->
+                            <div class="cx0ze cb69b">
+                                <h3 id="productivity" class="cc7gh ccqrz cx8zw c6df8 cfcmr ctwez cwban ctwxk cflos ciblf cte24">Productivity</h3>
+                                <div class="c4mpz cfcoj cvti0 c68vp">
+                                    <!-- Card #1 -->
+                                    <div class="cguxs czt1h cqp3k czyxl ccm5l cu167 c260e c27r3 cn544 cq2yg">
+                                        <div class="cfebz ck8nf c4agq casgt">
+                                            <div class="c2sao cujq3 c9eco c4agq">
+                                                <div class="c27r3">
+                                                    <img src="images/integrations-19.svg" width="40" height="40" alt="Icon 19">
+                                                    <img class="ca5ue coopx cl6qg" src="images/star.svg" width="16" height="16" alt="Star" aria-hidden="true">
+                                                </div>
+                                                <a class="cur25 cdxod cc7gh ccqrz cx8zw c6df8 cfcmr ckot6 ctwez" href="integrations-single.html">Linear</a>
+                                            </div>
+                                            <div class="c9wgl">
+                                                <div class="cmuyi cvdvu">Stellar makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Card #2 -->
+                                    <div class="cguxs czt1h cqp3k czyxl ccm5l cu167 c260e c27r3 cn544 cq2yg">
+                                        <div class="cfebz ck8nf c4agq casgt">
+                                            <div class="c2sao cujq3 c9eco c4agq">
+                                                <div class="c27r3">
+                                                    <img src="images/integrations-20.svg" width="40" height="40" alt="Icon 20">
+                                                    <img class="ca5ue coopx cl6qg" src="images/star.svg" width="16" height="16" alt="Star" aria-hidden="true">
+                                                </div>
+                                                <a class="cur25 cdxod cc7gh ccqrz cx8zw c6df8 cfcmr ckot6 ctwez" href="integrations-single.html">Microsoft</a>
+                                            </div>
+                                            <div class="c9wgl">
+                                                <div class="cmuyi cvdvu">Stellar makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Card #3 -->
+                                    <div class="cguxs czt1h cqp3k czyxl ccm5l cu167 c260e c27r3 cn544 cq2yg">
+                                        <div class="cfebz ck8nf c4agq casgt">
+                                            <div class="c2sao cujq3 c9eco c4agq">
+                                                <div class="c27r3">
+                                                    <img src="images/integrations-21.svg" width="40" height="40" alt="Icon 21">
+                                                    <img class="ca5ue coopx cl6qg" src="images/star.svg" width="16" height="16" alt="Star" aria-hidden="true">
+                                                </div>
+                                                <a class="cur25 cdxod cc7gh ccqrz cx8zw c6df8 cfcmr ckot6 ctwez" href="integrations-single.html">Google Drive</a>
+                                            </div>
+                                            <div class="c9wgl">
+                                                <div class="cmuyi cvdvu">Stellar makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Card #4 -->
+                                    <div class="cguxs czt1h cqp3k czyxl ccm5l cu167 c260e c27r3 cn544 cq2yg">
+                                        <div class="cfebz ck8nf c4agq casgt">
+                                            <div class="c2sao cujq3 c9eco c4agq">
+                                                <div class="c27r3">
+                                                    <img src="images/integrations-22.svg" width="40" height="40" alt="Icon 22">
+                                                    <img class="ca5ue coopx cl6qg" src="images/star.svg" width="16" height="16" alt="Star" aria-hidden="true">
+                                                </div>
+                                                <a class="cur25 cdxod cc7gh ccqrz cx8zw c6df8 cfcmr ckot6 ctwez" href="integrations-single.html">InVision</a>
+                                            </div>
+                                            <div class="c9wgl">
+                                                <div class="cmuyi cvdvu">Stellar makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Card #5 -->
+                                    <div class="cguxs czt1h cqp3k czyxl ccm5l cu167 c260e c27r3 cn544 cq2yg">
+                                        <div class="cfebz ck8nf c4agq casgt">
+                                            <div class="c2sao cujq3 c9eco c4agq">
+                                                <div class="c27r3">
+                                                    <img src="images/integrations-23.svg" width="40" height="40" alt="Icon 23">
+                                                </div>
+                                                <a class="cur25 cdxod cc7gh ccqrz cx8zw c6df8 cfcmr ckot6 ctwez" href="integrations-single.html">WeTransfer</a>
+                                            </div>
+                                            <div class="c9wgl">
+                                                <div class="cmuyi cvdvu">Stellar makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Card #6 -->
+                                    <div class="cguxs czt1h cqp3k czyxl ccm5l cu167 c260e c27r3 cn544 cq2yg">
+                                        <div class="cfebz ck8nf c4agq casgt">
+                                            <div class="c2sao cujq3 c9eco c4agq">
+                                                <div class="c27r3">
+                                                    <img src="images/integrations-24.svg" width="40" height="40" alt="Icon 24">
+                                                </div>
+                                                <a class="cur25 cdxod cc7gh ccqrz cx8zw c6df8 cfcmr ckot6 ctwez" href="integrations-single.html">Hotjar</a>
+                                            </div>
+                                            <div class="c9wgl">
+                                                <div class="cmuyi cvdvu">Stellar makes it easy to build extensions by providing an authentication provider that handles the OAuth flow.</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- CTA -->
+            <section>
+                <div class="co3q6 csm51 csya4 ccyhi">
+                    <div class="cx569 cbvce cuwj8 c27r3 cx3i6 cujph">
+                        <!-- Radial gradient -->
+                        <div class="c3sb3 c2vxt czyer csqqr c21zy c2sao c3x17 ca5ue cbbau cl6qg ch67j c4agq" aria-hidden="true">
+                            <div class="c9ua1 chor7 cw2sl cdfzt cutr4 ca5ue cwmqr"></div>
+                            <div class="chor7 cpgjj cyo6y cdfzt ca5ue chosp cgi8e"></div>
+                        </div>
+                        <!-- Blurred shape -->
+                        <div class="c3sb3 colir cp4r7 ca5ue c2s0w c7upq c1tcw ch67j" aria-hidden="true">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="434" height="427">
+                                <defs>
+                                    <linearGradient id="bs5-a" x1="19.609%" x2="50%" y1="14.544%" y2="100%">
+                                        <stop offset="0%" stop-color="#A855F7"></stop>
+                                        <stop offset="100%" stop-color="#6366F1" stop-opacity="0"></stop>
+                                    </linearGradient>
+                                </defs>
+                                <path fill="url(#bs5-a)" fill-rule="evenodd" d="m0 0 461 369-284 58z" transform="matrix(1 0 0 -1 0 427)"></path>
+                            </svg>
+                        </div>
+                        <!-- Content -->
+                        <div class="cw9su c80wd csya4">
+                            <div>
+                                <div class="ccqrz c6df8 ccal6 cuygr ctwez cwban ccqx1 c6wvq">The security first platform</div>
+                            </div>
+                            <h2 class="cc7gh ccqrz cx8zw c6df8 cfcmr ctwez cvc1j c4zau">Build your own integration</h2>
+                            <p class="cmuyi cbgr1 cpvtt">All the lorem ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.</p>
+                            <div>
+                                <a class="ccqrz cl7hu colil csdcv cpy2n cx3jz cgi3a cqxsj cdccy cq2yg cyijk" href="#0">
+                                    Start Building <span class="c9pof c406y cxxyq c3fbv cx3jz cgi3a cqzh1">-&gt;</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section> 
+
+        </main>
+
+        <!-- Site footer -->
+        <footer>
+            <div class="co3q6 csm51 csya4 ccyhi">
+        
+                <!-- Blocks -->
+                <div class="co97x cbinm cb684 c68vp cjyiu">
+        
+                    <!-- 1st block -->
+                    <div class="cbwex c4g3l c5tjy ciof7">
+                        <div class="cm7bi cacyx c32lj cfebz ck8nf c4agq">
+                            <div class="cx0x3 cuash">
+                                <div class="cuash">
+                                    <!-- Logo -->
+                                    <a class="cwban" href="index-2.html" aria-label="Cruip">
+                                        <img src="images/logo.svg" width="38" height="38" alt="Stellar">
+                                    </a>
+                                </div>
+                                <div class="cit3o cvdvu">© Cruip.com <span class="cgzoy">-</span> All rights reserved.</div>
+                            </div>
+                            <!-- Social links -->
+                            <ul class="c4agq">
+                                <li class="cmzyi">
+                                    <a class="clu19 c3fbv csqqr c2sao cx3jz cgi3a cqxsj c4agq" href="https://github.com/Ahmad-EM" aria-label="Github">
+                                        <svg class="cm1cr cq85g ccmi9" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M16 8.2c-4.4 0-8 3.6-8 8 0 3.5 2.3 6.5 5.5 7.6.4.1.5-.2.5-.4V22c-2.2.5-2.7-1-2.7-1-.4-.9-.9-1.2-.9-1.2-.7-.5.1-.5.1-.5.8.1 1.2.8 1.2.8.7 1.3 1.9.9 2.3.7.1-.5.3-.9.5-1.1-1.8-.2-3.6-.9-3.6-4 0-.9.3-1.6.8-2.1-.1-.2-.4-1 .1-2.1 0 0 .7-.2 2.2.8.6-.2 1.3-.3 2-.3s1.4.1 2 .3c1.5-1 2.2-.8 2.2-.8.4 1.1.2 1.9.1 2.1.5.6.8 1.3.8 2.1 0 3.1-1.9 3.7-3.7 3.9.3.4.6.9.6 1.6v2.2c0 .2.1.5.6.4 3.2-1.1 5.5-4.1 5.5-7.6-.1-4.4-3.7-8-8.1-8z"></path>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+        
+                    <!-- 2nd block -->
+                    <div class="cdq95 cel2w cg678">
+                        <h6 class="c8azi ccqx1 cvdvu cawjf">Products</h6>
+                        <ul class="ccea9 cvdvu">
+                            <li>
+                                <a class="ciok5 cmuyi cx3jz cgi3a cqxsj" href="#0">Features</a>
+                            </li>
+                            <li>
+                                <a class="ciok5 cmuyi cx3jz cgi3a cqxsj" href="#0">Integrations</a>
+                            </li>
+                            <li>
+                                <a class="ciok5 cmuyi cx3jz cgi3a cqxsj" href="#0">Pricing &amp; Plans</a>
+                            </li>
+                            <li>
+                                <a class="ciok5 cmuyi cx3jz cgi3a cqxsj" href="#0">Changelog</a>
+                            </li>
+                            <li>
+                                <a class="ciok5 cmuyi cx3jz cgi3a cqxsj" href="#0">Our method</a>
+                            </li>
+                        </ul>
+                    </div>
+        
+                    <!-- 3rd block -->
+                    <div class="cdq95 cel2w cg678">
+                        <h6 class="c8azi ccqx1 cvdvu cawjf">Company</h6>
+                        <ul class="ccea9 cvdvu">
+                            <li>
+                                <a class="ciok5 cmuyi cx3jz cgi3a cqxsj" href="#0">About us</a>
+                            </li>
+                            <li>
+                                <a class="ciok5 cmuyi cx3jz cgi3a cqxsj" href="#0">Diversity &amp; Inclusion</a>
+                            </li>
+                            <li>
+                                <a class="ciok5 cmuyi cx3jz cgi3a cqxsj" href="#0">Blog</a>
+                            </li>
+                            <li>
+                                <a class="ciok5 cmuyi cx3jz cgi3a cqxsj" href="#0">Careers</a>
+                            </li>
+                            <li>
+                                <a class="ciok5 cmuyi cx3jz cgi3a cqxsj" href="#0">Financial statements</a>
+                            </li>
+                        </ul>
+                    </div>
+        
+                    <!-- 4th block -->
+                    <div class="cdq95 cel2w cg678">
+                        <h6 class="c8azi ccqx1 cvdvu cawjf">Resources</h6>
+                        <ul class="ccea9 cvdvu">
+                            <li>
+                                <a class="ciok5 cmuyi cx3jz cgi3a cqxsj" href="#0">Community</a>
+                            </li>
+                            <li>
+                                <a class="ciok5 cmuyi cx3jz cgi3a cqxsj" href="#0">Terms of service</a>
+                            </li>
+                            <li>
+                                <a class="ciok5 cmuyi cx3jz cgi3a cqxsj" href="#0">Report a vulnerability</a>
+                            </li>
+                        </ul>
+                    </div>
+        
+                    <!-- 5th block -->
+                    <div class="cdq95 cel2w cg678">
+                        <h6 class="c8azi ccqx1 cvdvu cawjf">Legals</h6>
+                        <ul class="ccea9 cvdvu">
+                            <li>
+                                <a class="ciok5 cmuyi cx3jz cgi3a cqxsj" href="#0">Refund policy</a>
+                            </li>
+                            <li>
+                                <a class="ciok5 cmuyi cx3jz cgi3a cqxsj" href="#0">Terms &amp; Conditions</a>
+                            </li>
+                            <li>
+                                <a class="ciok5 cmuyi cx3jz cgi3a cqxsj" href="#0">Privacy policy</a>
+                            </li>
+                            <li>
+                                <a class="ciok5 cmuyi cx3jz cgi3a cqxsj" href="#0">Brand Kit</a>
+                            </li>
+                        </ul>
+                    </div>
+        
+                </div>
+        
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="js/vendors/alpinejs.min.js" defer=""></script>
+    <script src="js/vendors/aos.js"></script>
+    <script src="js/vendors/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+
+
+
+<script>console.log("%cImportant!", "color: blue; font-size: x-large");console.log("%cThe page you are viewing is for demo purposes only. CSS and HTML have been minified and class names have been shortened to improve the page load time. Download our templates from https://cruip.com/ 😉", "font-size: large");</script><script>const pagesList = [{"name":"Home","url":"https://preview.cruip.com/stellar/index.html","active":true},{"name":"About","url":"https://preview.cruip.com/stellar/about.html","active":false},{"name":"Integrations","url":"https://preview.cruip.com/stellar/integrations.html","active":false},{"name":"Integration Post","url":"https://preview.cruip.com/stellar/integrations-single.html","active":false},{"name":"Pricing","url":"https://preview.cruip.com/stellar/pricing.html","active":false},{"name":"Customers","url":"https://preview.cruip.com/stellar/customers.html","active":false},{"name":"Customer Post","url":"https://preview.cruip.com/stellar/customer.html","active":false},{"name":"Changelog","url":"https://preview.cruip.com/stellar/changelog.html","active":false},{"name":"Sign in","url":"https://preview.cruip.com/stellar/signin.html","active":false},{"name":"Sign up","url":"https://preview.cruip.com/stellar/signup.html","active":false},{"name":"Reset password","url":"https://preview.cruip.com/stellar/reset-password.html","active":false}];if(window != top){window.parent.postMessage(pagesList, "https://cruip.com/")};</script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317" integrity="sha512-euoFGowhlaLqXsPWQ48qSkBSCFs3DPRyiwVu3FjR96cMPx+Fr+gpWRhIafcHwqwCqWS42RZhIudOvEI+Ckf6MA==" data-cf-beacon='{"rayId":"8612fdb399cd99b4","version":"2024.2.4","r":1,"token":"59cc17d45d734f9ba118c63036ab1b84","b":1}' crossorigin="anonymous"></script>
+</body>
+<!-- Mirrored from preview.cruip.com/stellar/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 08 Mar 2024 12:57:56 GMT -->
+</html>

@@ -1,0 +1,522 @@
+<!DOCTYPE html><html lang="en" class="cmmz3">
+<!-- Mirrored from preview.cruip.com/stellar/customers.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 08 Mar 2024 12:58:59 GMT -->
+<head>
+    <meta charset="utf-8">
+    <title>Stellar HTML Demo - Customers</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="css/vendors/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/vendors/swiper-bundle.min.css">
+    <link href="style.css" rel="stylesheet">
+<script defer data-domain='preview.cruip.com,rollup.cruip.com' src='../../plausible.cruip.com/js/script.js'></script></head>
+
+<body class="c4f4x cnihn cs2bp c55gg czrq6">
+
+    <!-- Page wrapper -->
+    <div class="crm2f cbvce cxgh5 cfebz c4agq">
+
+        <!-- Site header -->
+        <header class="ca5ue ca0gw cverl">
+            <div class="co3q6 csm51 csya4 ccyhi">
+                <div class="cm7bi c2sao c4jjw c4agq cm0fl">
+
+                    <!-- Site branding -->
+                    <div class="ci0vw">
+                        <!-- Logo -->
+                        <a class="cwban" href="index-2.html" aria-label="Cruip">
+                            <img class="cbdyn" src="images/logo.svg" width="38" height="38" alt="Stellar">
+                        </a>
+                    </div>
+
+                    <!-- Desktop navigation -->
+                    <nav class="cp37h cjnbw ch9bk">
+
+                        <!-- Desktop menu links -->
+                        <ul class="csqqr c2sao cbsu6 c4agq c9wgl">
+                            <li>
+                                <a class="c0z2s cit3o cx3jz ccqx1 cgi3a cqxsj ch2qt cvdvu ciz32" href="about.html">About</a>
+                            </li>
+                            <li>
+                                <a class="c0z2s cit3o cx3jz ccqx1 cgi3a cqxsj ch2qt cvdvu ciz32" href="integrations.html">Integrations</a>
+                            </li>
+                            <li>
+                                <a class="c0z2s cit3o cx3jz ccqx1 cgi3a cqxsj ch2qt cvdvu ciz32" href="pricing.html">Pricing</a>
+                            </li>
+                            <li>
+                                <a class="c0z2s cit3o cx3jz ccqx1 cgi3a cqxsj ch2qt cvdvu ciz32" href="customers.html">Customers</a>
+                            </li>
+                            <li>
+                                <a class="c0z2s cit3o cx3jz ccqx1 cgi3a cqxsj ch2qt cvdvu ciz32" href="changelog.html">Changelog</a>
+                            </li>
+                        </ul>
+
+                    </nav>
+
+                    <!-- Desktop sign in links -->
+                    <ul class="c2sao cq21c ci0vw c4agq">
+                        <li>
+                            <a class="cz30y c0z2s cit3o cx3jz ccqx1 cgi3a cqxsj cvdvu" href="signin.html">Sign in</a>
+                        </li>
+                        <li class="cci1o">
+                            <a class="c3d7q c272e cegg3 c8isz c0z2s c1mpe ccqfq cit3o cx3jz cgi3a cqxsj c27r3 cfl4k ca0gw cq2yg" href="signup.html">
+                                <span class="c2sao cwban c27r3">
+                                    Sign up <span class="c9pof c406y cxxyq c3fbv cx3jz cgi3a cqzh1">-&gt;</span>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+
+                    <!-- Mobile menu -->
+                    <div class="c2sao c89zz cwap3 c4agq" x-data="{ expanded: false }">
+                    
+                        <!-- Hamburger button -->
+                        <button class="c381v" :class="{ 'active': expanded }" @click.stop="expanded = !expanded" aria-controls="mobile-nav" :aria-expanded="expanded">
+                            <span class="cmmna">Menu</span>
+                            <svg class="c0z2s cit3o cm1cr cx3jz cgi3a cqxsj csq2q c7vsq" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                                <rect y="2" width="20" height="2" rx="1"></rect>
+                                <rect y="9" width="20" height="2" rx="1"></rect>
+                                <rect y="16" width="20" height="2" rx="1"></rect>
+                            </svg>
+                        </button>
+                    
+                        <!-- Mobile navigation -->
+                        <nav id="mobile-nav" class="cbvce cml7t cpjek cgi3a ca5ue chez1 csm51 c1tcw ca0gw ccxsu ccyhi" x-ref="mobileNav" :style="expanded ? 'max-height: ' + $refs.mobileNav.scrollHeight + 'px; opacity: 1' : 'max-height: 0; opacity: .8'" @click.outside="expanded = false" @keydown.escape.window="expanded = false" x-cloak="">
+                            <ul class="c3d7q cy8oh c8nst coow7 cn544 ccyhi">
+                                <li>
+                                    <a class="c0z2s cit3o ccqx1 coow7 cvdvu c4agq" href="about.html">About</a>
+                                </li>
+                                <li>
+                                    <a class="c0z2s cit3o ccqx1 coow7 cvdvu c4agq" href="integrations.html">Integrations</a>
+                                </li>
+                                <li>
+                                    <a class="c0z2s cit3o ccqx1 coow7 cvdvu c4agq" href="pricing.html">Pricing</a>
+                                </li>
+                                <li>
+                                    <a class="c0z2s cit3o ccqx1 coow7 cvdvu c4agq" href="customers.html">Customers</a>
+                                </li>
+                                <li>
+                                    <a class="c0z2s cit3o ccqx1 coow7 cvdvu c4agq" href="changelog.html">Changelog</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    
+                    </div>
+
+                </div>
+            </div>
+        </header>
+
+        <!-- Page content -->
+        <main class="c9wgl">
+
+            <!-- Content -->
+            <section class="c27r3">
+
+                <!-- Radial gradient -->
+                <div class="c3sb3 c2vxt czyer csqqr c21zy c2sao czqre c3x17 ca5ue cl6qg ch67j c4agq" aria-hidden="true">
+                    <div class="c9ua1 chor7 cw2sl cdfzt cz8e7 ca5ue cwmqr"></div>
+                    <div class="chor7 cpgjj cal1k cdfzt cutr4 ca5ue cbc5q cb4st"></div>
+                </div>
+
+                <!-- Particles animation -->
+                <div class="ca5ue cwmqr ch67j ci4x8" aria-hidden="true">
+                    <canvas data-particle-animation="" data-particle-quantity="15"></canvas>
+                </div>
+
+                <!-- Illustration -->
+                <div class="c3sb3 c2vxt c5by6 c3x17 cs26b ca5ue c7upq cnheb ch67j" aria-hidden="true">
+                    <img src="images/page-illustration.svg" class="cbdyn" width="1440" height="427" alt="Page Illustration">
+                </div>
+
+                <div class="co3q6 csm51 csya4 ccyhi">
+                    <div class="cz17m cp02i">
+
+                        <!-- Section header -->
+                        <div class="cw9su c9eon cifrc">
+                            <div class="ccqrz c6df8 ccal6 cuygr ctwez cwban ccqx1 c6wvq">Leaders love Stellar</div>
+                            <h1 class="cc7gh ccqrz cx8zw c6df8 cfcmr ctwez cvc1j cbmj0">Trusted by leading companies</h1>
+                            <div class="c80wd csya4">
+                                <p class="cmuyi cbgr1">Stellar powers thousands of high-impact product teams. From next-gen startups who reach for the stars to established greats who change the world.</p>
+                            </div>
+                        </div>
+
+                        <!-- Customers grid -->
+                        <div class="cmoto cx53o crci9 c9eon csya4 cifrc">
+                            <div class="cm1xw cat3r c4mpz cfcoj cvti0 cq2yg c68vp" data-highlighter="">
+                                <!-- Item #01 -->
+                                <div>
+                                    <a href="customer.html">
+                                        <div class="cp2di c08y9 cnkqm coqle c272e cdmwi c41c6 cuuka cf92s c6gja c6w0b c8isz ct0cz c3dq6 c5aca c1mpe c1e1w cj8zu cbvce cy59s ciw4n cww36 cmy5g cco6z c1y33 ctr73 c260e cyayz c27r3 ck8nf cvi9m c0cl2">
+                                            <div class="chrsn cbvce cs2bp c27r3 ck8nf ccxsu">
+                                                <!-- Particles animation -->
+                                                <div class="ca5ue cwmqr ch67j" aria-hidden="true">
+                                                    <canvas data-particle-animation="" data-particle-quantity="3"></canvas>
+                                                </div>
+                                                <div class="csqqr c2sao c4agq">
+                                                    <img class="ckgd7 cp4dk ck8nf ca0gw" src="images/customer-bg-01.png" width="352" height="198" alt="Customer Background 01" aria-hidden="true">
+                                                    <img class="ca5ue" src="images/customer-01.svg" width="78" height="34" alt="Customer 01">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- Item #02 -->
+                                <div>
+                                    <a href="customer.html">
+                                        <div class="cp2di c08y9 cnkqm coqle c272e cdmwi c41c6 cuuka cf92s c6gja c6w0b c8isz ct0cz c3dq6 c5aca c1mpe c1e1w cj8zu cbvce cy59s ciw4n cww36 cmy5g cco6z c1y33 ctr73 c260e cyayz c27r3 ck8nf cvi9m c0cl2">
+                                            <div class="chrsn cbvce cs2bp c27r3 ck8nf ccxsu">
+                                                <!-- Particles animation -->
+                                                <div class="ca5ue cwmqr ch67j" aria-hidden="true">
+                                                    <canvas data-particle-animation="" data-particle-quantity="3"></canvas>
+                                                </div>
+                                                <div class="csqqr c2sao c4agq">
+                                                    <img class="ckgd7 cp4dk ck8nf ca0gw" src="images/customer-bg-02.png" width="352" height="198" alt="Customer Background 02" aria-hidden="true">
+                                                    <img class="ca5ue" src="images/customer-02.svg" width="70" height="25" alt="Customer 02">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- Item #03 -->
+                                <div>
+                                    <a href="customer.html">
+                                        <div class="cp2di c08y9 cnkqm coqle c272e cdmwi c41c6 cuuka cf92s c6gja c6w0b c8isz ct0cz c3dq6 c5aca c1mpe c1e1w cj8zu cbvce cy59s ciw4n cww36 cmy5g cco6z c1y33 ctr73 c260e cyayz c27r3 ck8nf cvi9m c0cl2">
+                                            <div class="chrsn cbvce cs2bp c27r3 ck8nf ccxsu">
+                                                <!-- Particles animation -->
+                                                <div class="ca5ue cwmqr ch67j" aria-hidden="true">
+                                                    <canvas data-particle-animation="" data-particle-quantity="3"></canvas>
+                                                </div>
+                                                <div class="csqqr c2sao c4agq">
+                                                    <img class="ckgd7 cp4dk ck8nf ca0gw" src="images/customer-bg-03.png" width="352" height="198" alt="Customer Background 03" aria-hidden="true">
+                                                    <img class="ca5ue" src="images/customer-03.svg" width="107" height="33" alt="Customer 03">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- Item #04 -->
+                                <div>
+                                    <a href="customer.html">
+                                        <div class="cp2di c08y9 cnkqm coqle c272e cdmwi c41c6 cuuka cf92s c6gja c6w0b c8isz ct0cz c3dq6 c5aca c1mpe c1e1w cj8zu cbvce cy59s ciw4n cww36 cmy5g cco6z c1y33 ctr73 c260e cyayz c27r3 ck8nf cvi9m c0cl2">
+                                            <div class="chrsn cbvce cs2bp c27r3 ck8nf ccxsu">
+                                                <!-- Particles animation -->
+                                                <div class="ca5ue cwmqr ch67j" aria-hidden="true">
+                                                    <canvas data-particle-animation="" data-particle-quantity="3"></canvas>
+                                                </div>
+                                                <div class="csqqr c2sao c4agq">
+                                                    <img class="ckgd7 cp4dk ck8nf ca0gw" src="images/customer-bg-04.png" width="352" height="198" alt="Customer Background 04" aria-hidden="true">
+                                                    <img class="ca5ue" src="images/customer-04.svg" width="85" height="36" alt="Customer 04">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- Item #05 -->
+                                <div>
+                                    <a href="customer.html">
+                                        <div class="cp2di c08y9 cnkqm coqle c272e cdmwi c41c6 cuuka cf92s c6gja c6w0b c8isz ct0cz c3dq6 c5aca c1mpe c1e1w cj8zu cbvce cy59s ciw4n cww36 cmy5g cco6z c1y33 ctr73 c260e cyayz c27r3 ck8nf cvi9m c0cl2">
+                                            <div class="chrsn cbvce cs2bp c27r3 ck8nf ccxsu">
+                                                <!-- Particles animation -->
+                                                <div class="ca5ue cwmqr ch67j" aria-hidden="true">
+                                                    <canvas data-particle-animation="" data-particle-quantity="3"></canvas>
+                                                </div>
+                                                <div class="csqqr c2sao c4agq">
+                                                    <img class="ckgd7 cp4dk ck8nf ca0gw" src="images/customer-bg-05.png" width="352" height="198" alt="Customer Background 05" aria-hidden="true">
+                                                    <img class="ca5ue" src="images/customer-05.svg" width="86" height="18" alt="Customer 05">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- Item #06 -->
+                                <div>
+                                    <a href="customer.html">
+                                        <div class="cp2di c08y9 cnkqm coqle c272e cdmwi c41c6 cuuka cf92s c6gja c6w0b c8isz ct0cz c3dq6 c5aca c1mpe c1e1w cj8zu cbvce cy59s ciw4n cww36 cmy5g cco6z c1y33 ctr73 c260e cyayz c27r3 ck8nf cvi9m c0cl2">
+                                            <div class="chrsn cbvce cs2bp c27r3 ck8nf ccxsu">
+                                                <!-- Particles animation -->
+                                                <div class="ca5ue cwmqr ch67j" aria-hidden="true">
+                                                    <canvas data-particle-animation="" data-particle-quantity="3"></canvas>
+                                                </div>
+                                                <div class="csqqr c2sao c4agq">
+                                                    <img class="ckgd7 cp4dk ck8nf ca0gw" src="images/customer-bg-06.png" width="352" height="198" alt="Customer Background 06" aria-hidden="true">
+                                                    <img class="ca5ue" src="images/customer-06.svg" width="110" height="21" alt="Customer 06">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- Item #07 -->
+                                <div>
+                                    <a href="customer.html">
+                                        <div class="cp2di c08y9 cnkqm coqle c272e cdmwi c41c6 cuuka cf92s c6gja c6w0b c8isz ct0cz c3dq6 c5aca c1mpe c1e1w cj8zu cbvce cy59s ciw4n cww36 cmy5g cco6z c1y33 ctr73 c260e cyayz c27r3 ck8nf cvi9m c0cl2">
+                                            <div class="chrsn cbvce cs2bp c27r3 ck8nf ccxsu">
+                                                <!-- Particles animation -->
+                                                <div class="ca5ue cwmqr ch67j" aria-hidden="true">
+                                                    <canvas data-particle-animation="" data-particle-quantity="3"></canvas>
+                                                </div>
+                                                <div class="csqqr c2sao c4agq">
+                                                    <img class="ckgd7 cp4dk ck8nf ca0gw" src="images/customer-bg-07.png" width="352" height="198" alt="Customer Background 07" aria-hidden="true">
+                                                    <img class="ca5ue" src="images/customer-07.svg" width="83" height="23" alt="Customer 07">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- Item #08 -->
+                                <div>
+                                    <a href="customer.html">
+                                        <div class="cp2di c08y9 cnkqm coqle c272e cdmwi c41c6 cuuka cf92s c6gja c6w0b c8isz ct0cz c3dq6 c5aca c1mpe c1e1w cj8zu cbvce cy59s ciw4n cww36 cmy5g cco6z c1y33 ctr73 c260e cyayz c27r3 ck8nf cvi9m c0cl2">
+                                            <div class="chrsn cbvce cs2bp c27r3 ck8nf ccxsu">
+                                                <!-- Particles animation -->
+                                                <div class="ca5ue cwmqr ch67j" aria-hidden="true">
+                                                    <canvas data-particle-animation="" data-particle-quantity="3"></canvas>
+                                                </div>
+                                                <div class="csqqr c2sao c4agq">
+                                                    <img class="ckgd7 cp4dk ck8nf ca0gw" src="images/customer-bg-08.png" width="352" height="198" alt="Customer Background 08" aria-hidden="true">
+                                                    <img class="ca5ue" src="images/customer-08.svg" width="98" height="40" alt="Customer 08">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- Item #09 -->
+                                <div>
+                                    <a href="customer.html">
+                                        <div class="cp2di c08y9 cnkqm coqle c272e cdmwi c41c6 cuuka cf92s c6gja c6w0b c8isz ct0cz c3dq6 c5aca c1mpe c1e1w cj8zu cbvce cy59s ciw4n cww36 cmy5g cco6z c1y33 ctr73 c260e cyayz c27r3 ck8nf cvi9m c0cl2">
+                                            <div class="chrsn cbvce cs2bp c27r3 ck8nf ccxsu">
+                                                <!-- Particles animation -->
+                                                <div class="ca5ue cwmqr ch67j" aria-hidden="true">
+                                                    <canvas data-particle-animation="" data-particle-quantity="3"></canvas>
+                                                </div>
+                                                <div class="csqqr c2sao c4agq">
+                                                    <img class="ckgd7 cp4dk ck8nf ca0gw" src="images/customer-bg-09.png" width="352" height="198" alt="Customer Background 09" aria-hidden="true">
+                                                    <img class="ca5ue" src="images/customer-09.svg" width="106" height="35" alt="Customer 09">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- Item #10 -->
+                                <div>
+                                    <a href="customer.html">
+                                        <div class="cp2di c08y9 cnkqm coqle c272e cdmwi c41c6 cuuka cf92s c6gja c6w0b c8isz ct0cz c3dq6 c5aca c1mpe c1e1w cj8zu cbvce cy59s ciw4n cww36 cmy5g cco6z c1y33 ctr73 c260e cyayz c27r3 ck8nf cvi9m c0cl2">
+                                            <div class="chrsn cbvce cs2bp c27r3 ck8nf ccxsu">
+                                                <!-- Particles animation -->
+                                                <div class="ca5ue cwmqr ch67j" aria-hidden="true">
+                                                    <canvas data-particle-animation="" data-particle-quantity="3"></canvas>
+                                                </div>
+                                                <div class="csqqr c2sao c4agq">
+                                                    <img class="ckgd7 cp4dk ck8nf ca0gw" src="images/customer-bg-10.png" width="352" height="198" alt="Customer Background 10" aria-hidden="true">
+                                                    <img class="ca5ue" src="images/customer-10.svg" width="132" height="22" alt="Customer 10">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!-- Testimonial #01 -->
+                                <div class="csqqr c2sao cw9su cfebz c4agq ctiau">
+                                    <p class="cc7gh ccqrz cx8zw c6df8 cfcmr ctwez ccqx1 c6wvq">
+                                        <span class="cekm2">
+                                            “We struggled to bring all our conversations into one place until we found Stellar. The UI is very clean and we love the integration with Spark.”
+                                        </span>
+                                    </p>
+                                    <div class="cwban cawjf">
+                                        <img class="cdfzt" src="images/customer-avatar-01.jpg" width="32" height="32" alt="Customer Avatar 01">
+                                    </div>
+                                    <div class="cit3o ccqx1 cvdvu">
+                                        Mike Hunt <span class="ca6l0">-</span> <a class="c6tmf c3fbv" href="#0">Thunderbolt</a>
+                                    </div>
+                                </div>
+                                <!-- Testimonial #02 -->
+                                <div class="csqqr c2sao cw9su cfebz c4agq ctiau">
+                                    <p class="cc7gh ccqrz cx8zw c6df8 cfcmr ctwez ccqx1 c6wvq">
+                                        <span class="cekm2">
+                                            “We struggled to bring all our conversations into one place until we found Stellar. The UI is very clean and we love the integration with Spark.”
+                                        </span>
+                                    </p>
+                                    <div class="cwban cawjf">
+                                        <img class="cdfzt" src="images/customer-avatar-02.jpg" width="32" height="32" alt="Customer Avatar 02">
+                                    </div>
+                                    <div class="cit3o ccqx1 cvdvu">
+                                        Mirko Mitt <span class="ca6l0">-</span> <a class="c6tmf c3fbv" href="#0">Mildrink</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </section>
+
+            <!-- CTA -->
+            <section class="c27r3">
+
+                <!-- Particles animation -->
+                <div class="c2vxt c3x17 ca5ue c4cc0 cl6qg ch67j clxo2 cck8s">
+                    <div class="ca5ue cwmqr ch67j" aria-hidden="true">
+                        <canvas data-particle-animation="" data-particle-quantity="6" data-particle-staticity="30"></canvas>
+                    </div>
+                </div>
+
+                <div class="co3q6 csm51 csya4 ccyhi">
+                    <div class="ctnn6 cuwj8 c27r3 ckbs2 ckogj cx3i6 cujph">
+                        <!-- Blurred shape -->
+                        <div class="c3sb3 c2vxt cutr4 c3x17 ca5ue c7upq c4cc0 cl6qg ch67j cwsqy" aria-hidden="true">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="434" height="427">
+                                <defs>
+                                    <linearGradient id="bs4-a" x1="19.609%" x2="50%" y1="14.544%" y2="100%">
+                                        <stop offset="0%" stop-color="#A855F7"></stop>
+                                        <stop offset="100%" stop-color="#6366F1" stop-opacity="0"></stop>
+                                    </linearGradient>
+                                </defs>
+                                <path fill="url(#bs4-a)" fill-rule="evenodd" d="m0 0 461 369-284 58z" transform="matrix(1 0 0 -1 0 427)"></path>
+                            </svg>
+                        </div>
+                        <!-- Content -->
+                        <div class="cw9su c80wd csya4">
+                            <div>
+                                <div class="ccqrz c6df8 ccal6 cuygr ctwez cwban ccqx1 c6wvq">The security first platform</div>
+                            </div>
+                            <h2 class="cc7gh ccqrz cx8zw c6df8 cfcmr ctwez cvc1j c4zau">Supercharge your security</h2>
+                            <p class="cmuyi cbgr1 cpvtt">All the lorem ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet.</p>
+                            <div>
+                                <a class="ccqrz cl7hu colil csdcv cpy2n cx3jz cgi3a cqxsj cdccy cq2yg cyijk" href="#0">
+                                    Start Building <span class="c9pof c406y cxxyq c3fbv cx3jz cgi3a cqzh1">-&gt;</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <!-- Site footer -->
+        <footer>
+            <div class="co3q6 csm51 csya4 ccyhi">
+        
+                <!-- Blocks -->
+                <div class="co97x cbinm cb684 c68vp cjyiu">
+        
+                    <!-- 1st block -->
+                    <div class="cbwex c4g3l c5tjy ciof7">
+                        <div class="cm7bi cacyx c32lj cfebz ck8nf c4agq">
+                            <div class="cx0x3 cuash">
+                                <div class="cuash">
+                                    <!-- Logo -->
+                                    <a class="cwban" href="index-2.html" aria-label="Cruip">
+                                        <img src="images/logo.svg" width="38" height="38" alt="Stellar">
+                                    </a>
+                                </div>
+                                <div class="cit3o cvdvu">© Cruip.com <span class="cgzoy">-</span> All rights reserved.</div>
+                            </div>
+                            <!-- Social links -->
+                            <ul class="c4agq">
+                                <li class="cmzyi">
+                                    <a class="clu19 c3fbv csqqr c2sao cx3jz cgi3a cqxsj c4agq" href="https://github.com/Ahmad-EM" aria-label="Github">
+                                        <svg class="cm1cr cq85g ccmi9" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M16 8.2c-4.4 0-8 3.6-8 8 0 3.5 2.3 6.5 5.5 7.6.4.1.5-.2.5-.4V22c-2.2.5-2.7-1-2.7-1-.4-.9-.9-1.2-.9-1.2-.7-.5.1-.5.1-.5.8.1 1.2.8 1.2.8.7 1.3 1.9.9 2.3.7.1-.5.3-.9.5-1.1-1.8-.2-3.6-.9-3.6-4 0-.9.3-1.6.8-2.1-.1-.2-.4-1 .1-2.1 0 0 .7-.2 2.2.8.6-.2 1.3-.3 2-.3s1.4.1 2 .3c1.5-1 2.2-.8 2.2-.8.4 1.1.2 1.9.1 2.1.5.6.8 1.3.8 2.1 0 3.1-1.9 3.7-3.7 3.9.3.4.6.9.6 1.6v2.2c0 .2.1.5.6.4 3.2-1.1 5.5-4.1 5.5-7.6-.1-4.4-3.7-8-8.1-8z"></path>
+                                        </svg>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+        
+                    <!-- 2nd block -->
+                    <div class="cdq95 cel2w cg678">
+                        <h6 class="c8azi ccqx1 cvdvu cawjf">Products</h6>
+                        <ul class="ccea9 cvdvu">
+                            <li>
+                                <a class="ciok5 cmuyi cx3jz cgi3a cqxsj" href="#0">Features</a>
+                            </li>
+                            <li>
+                                <a class="ciok5 cmuyi cx3jz cgi3a cqxsj" href="#0">Integrations</a>
+                            </li>
+                            <li>
+                                <a class="ciok5 cmuyi cx3jz cgi3a cqxsj" href="#0">Pricing &amp; Plans</a>
+                            </li>
+                            <li>
+                                <a class="ciok5 cmuyi cx3jz cgi3a cqxsj" href="#0">Changelog</a>
+                            </li>
+                            <li>
+                                <a class="ciok5 cmuyi cx3jz cgi3a cqxsj" href="#0">Our method</a>
+                            </li>
+                        </ul>
+                    </div>
+        
+                    <!-- 3rd block -->
+                    <div class="cdq95 cel2w cg678">
+                        <h6 class="c8azi ccqx1 cvdvu cawjf">Company</h6>
+                        <ul class="ccea9 cvdvu">
+                            <li>
+                                <a class="ciok5 cmuyi cx3jz cgi3a cqxsj" href="#0">About us</a>
+                            </li>
+                            <li>
+                                <a class="ciok5 cmuyi cx3jz cgi3a cqxsj" href="#0">Diversity &amp; Inclusion</a>
+                            </li>
+                            <li>
+                                <a class="ciok5 cmuyi cx3jz cgi3a cqxsj" href="#0">Blog</a>
+                            </li>
+                            <li>
+                                <a class="ciok5 cmuyi cx3jz cgi3a cqxsj" href="#0">Careers</a>
+                            </li>
+                            <li>
+                                <a class="ciok5 cmuyi cx3jz cgi3a cqxsj" href="#0">Financial statements</a>
+                            </li>
+                        </ul>
+                    </div>
+        
+                    <!-- 4th block -->
+                    <div class="cdq95 cel2w cg678">
+                        <h6 class="c8azi ccqx1 cvdvu cawjf">Resources</h6>
+                        <ul class="ccea9 cvdvu">
+                            <li>
+                                <a class="ciok5 cmuyi cx3jz cgi3a cqxsj" href="#0">Community</a>
+                            </li>
+                            <li>
+                                <a class="ciok5 cmuyi cx3jz cgi3a cqxsj" href="#0">Terms of service</a>
+                            </li>
+                            <li>
+                                <a class="ciok5 cmuyi cx3jz cgi3a cqxsj" href="#0">Report a vulnerability</a>
+                            </li>
+                        </ul>
+                    </div>
+        
+                    <!-- 5th block -->
+                    <div class="cdq95 cel2w cg678">
+                        <h6 class="c8azi ccqx1 cvdvu cawjf">Legals</h6>
+                        <ul class="ccea9 cvdvu">
+                            <li>
+                                <a class="ciok5 cmuyi cx3jz cgi3a cqxsj" href="#0">Refund policy</a>
+                            </li>
+                            <li>
+                                <a class="ciok5 cmuyi cx3jz cgi3a cqxsj" href="#0">Terms &amp; Conditions</a>
+                            </li>
+                            <li>
+                                <a class="ciok5 cmuyi cx3jz cgi3a cqxsj" href="#0">Privacy policy</a>
+                            </li>
+                            <li>
+                                <a class="ciok5 cmuyi cx3jz cgi3a cqxsj" href="#0">Brand Kit</a>
+                            </li>
+                        </ul>
+                    </div>
+        
+                </div>
+        
+            </div>
+        </footer>
+
+    </div>
+
+    <script src="js/vendors/alpinejs.min.js" defer=""></script>
+    <script src="js/vendors/aos.js"></script>
+    <script src="js/vendors/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+
+
+
+<script>console.log("%cImportant!", "color: blue; font-size: x-large");console.log("%cThe page you are viewing is for demo purposes only. CSS and HTML have been minified and class names have been shortened to improve the page load time. Download our templates from https://cruip.com/ 😉", "font-size: large");</script><script>const pagesList = [{"name":"Home","url":"https://preview.cruip.com/stellar/index.html","active":true},{"name":"About","url":"https://preview.cruip.com/stellar/about.html","active":false},{"name":"Integrations","url":"https://preview.cruip.com/stellar/integrations.html","active":false},{"name":"Integration Post","url":"https://preview.cruip.com/stellar/integrations-single.html","active":false},{"name":"Pricing","url":"https://preview.cruip.com/stellar/pricing.html","active":false},{"name":"Customers","url":"https://preview.cruip.com/stellar/customers.html","active":false},{"name":"Customer Post","url":"https://preview.cruip.com/stellar/customer.html","active":false},{"name":"Changelog","url":"https://preview.cruip.com/stellar/changelog.html","active":false},{"name":"Sign in","url":"https://preview.cruip.com/stellar/signin.html","active":false},{"name":"Sign up","url":"https://preview.cruip.com/stellar/signup.html","active":false},{"name":"Reset password","url":"https://preview.cruip.com/stellar/reset-password.html","active":false}];if(window != top){window.parent.postMessage(pagesList, "https://cruip.com/")};</script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317" integrity="sha512-euoFGowhlaLqXsPWQ48qSkBSCFs3DPRyiwVu3FjR96cMPx+Fr+gpWRhIafcHwqwCqWS42RZhIudOvEI+Ckf6MA==" data-cf-beacon='{"rayId":"8612fdb399cd99b4","version":"2024.2.4","r":1,"token":"59cc17d45d734f9ba118c63036ab1b84","b":1}' crossorigin="anonymous"></script>
+</body>
+<!-- Mirrored from preview.cruip.com/stellar/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 08 Mar 2024 12:57:56 GMT -->
+</html>
